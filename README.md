@@ -1,1 +1,2 @@
 # alite
+## Use Shopify CLI
