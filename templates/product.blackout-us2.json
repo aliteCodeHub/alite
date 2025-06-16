@@ -582,6 +582,50 @@
         "padding_bottom": 36
       }
     },
+    "ts_video_slider_AX8dLE": {
+      "type": "ts-video-slider",
+      "blocks": {
+        "video_kgDk8G": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/ugc 1.mp4",
+            "text_line_1": "Recorded by",
+            "text_line_2": "Mike Rodriguez, United States",
+            "flag": "shopify://shop_images/Frame_1_2_e20a703f-76dc-42bd-b10d-8858ebfe95c6.png",
+            "flag_width": 25
+          }
+        },
+        "video_xNRVq7": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/UGC 2.mp4",
+            "text_line_1": "Recorded by",
+            "text_line_2": "Robert Finch, United States",
+            "flag": "shopify://shop_images/uk_flag.svg",
+            "flag_width": 25
+          }
+        },
+        "video_AyDHE7": {
+          "type": "video",
+          "settings": {
+            "video": "shopify://files/videos/UGC 3.mp4",
+            "text_line_1": "Recorded by",
+            "text_line_2": "Cotlin Stown, United States",
+            "flag": "shopify://shop_images/Frame_1_11_430x_ea81d6b4-3167-421e-99df-b5e1885e88a3.png",
+            "flag_width": 25
+          }
+        }
+      },
+      "block_order": [
+        "video_kgDk8G",
+        "video_xNRVq7",
+        "video_AyDHE7"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "description": ""
+      }
+    },
     "also_like_ykmnJP": {
       "type": "also-like",
       "custom_css": [
@@ -599,57 +643,6 @@
           "nanotape-license-plate-frame-for-1-license-plate-us-version"
         ],
         "custom_id": ""
-      }
-    },
-    "ts_video_slider_PwwNBm": {
-      "type": "ts-video-slider",
-      "blocks": {
-        "video_9jMAjX": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/blackout ugc 1.mp4",
-            "text_line_1": "Recorded by",
-            "text_line_2": "Mike Rodriguez, United States",
-            "flag": "shopify://shop_images/Frame_1_2_3add47b6-a0a2-47b4-bb75-18c522a502a2.png",
-            "flag_width": 25
-          }
-        },
-        "video_kgeFMR": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/Blackout UGC 3.mp4",
-            "text_line_1": "Recorded by",
-            "text_line_2": "Emily Swen, United States",
-            "flag": "shopify://shop_images/Frame_1_2_33dc02ee-7802-4a86-a0d4-20af35c64704.png",
-            "flag_width": 25
-          }
-        },
-        "video_Cyycmi": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/Blacout UGC 2.mp4",
-            "text_line_1": "Recorded by",
-            "text_line_2": "Cotlin Stown, United States",
-            "flag": "shopify://shop_images/Frame_1_2_3902c1bb-2ca3-41c8-a196-7837f8c5fa01.png",
-            "flag_width": 25
-          }
-        }
-      },
-      "block_order": [
-        "video_9jMAjX",
-        "video_kgeFMR",
-        "video_Cyycmi"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".ts-video__inner {max-height: 550px; display: block; cursor: pointer;}",
-        ".ts-videos {max-height: 700px; border-bottom: 0;}",
-        ".ts-videos__container {max-width: 1240px; margin: 0 auto 0px; padding: 0 37px; position: relative;}",
-        "@media screen and (max-width: 1220px) {.ts-video__inner {max-height: 400px; display: block; cursor: pointer; } .ts-videos__title {text-align: left; } .ts-videos {max-height: 600px; border-bottom: 0; }}"
-      ],
-      "settings": {
-        "title": "Testimonials",
-        "description": ""
       }
     },
     "trustpilot_reviews_HpAVXc": {
@@ -911,8 +904,8 @@
     "multicolumn_new_ANCcxU",
     "calculator_section_hBU9Qf",
     "multicolumn_dgDFXa",
+    "ts_video_slider_AX8dLE",
     "also_like_ykmnJP",
-    "ts_video_slider_PwwNBm",
     "trustpilot_reviews_HpAVXc",
     "faq_pYyw9q",
     "865377611828215098",

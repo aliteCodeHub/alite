@@ -812,7 +812,7 @@
   </h3>
 </a>
           <div class="scroll">
-        <button class="scroll-button button-left" aria-label="arrow button left">
+        <button class="scroll-button button-left">
          {% render "arrow-button-left" %}
         </button>
         <div  id="style-1" class="scroll-container">
@@ -848,7 +848,7 @@
 {% endfor %}
           </div>
         </div>
-      <button class="scroll-button button-right button-active" aria-label="arrow button right">
+      <button class="scroll-button button-right button-active">
               {% render "arrow-button-right" %}
         </button>
       </div>
@@ -1272,7 +1272,7 @@ document.getElementById('copyButton').addEventListener('click', function() {
          button.querySelector("svg path").style.fill = "0"
         }, 3000);
       })
-      .catch(err => console.log('Copy error: ', err));
+      .catch(err => console.log('Ошибка копирования', err));
   }
 
 
