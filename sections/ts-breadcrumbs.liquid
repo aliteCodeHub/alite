@@ -35,8 +35,8 @@
         </li>
 
         {%- comment -%} Loop through product collections and build hierarchy {%- endcomment -%}
-        {% for collection in product.collections %}
-          <li>
+        {% for collection in product.collections reversed %}
+          <li data-f>
             <a href="{{ collection.url }}">{{ collection.title }}</a>
             <span class="ts-breadcrumbs__caret">{% render 'ts-icon-caret' %}</span>
           </li>
