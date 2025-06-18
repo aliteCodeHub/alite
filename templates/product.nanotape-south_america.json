@@ -92,7 +92,7 @@
             "show_min_order": false,
             "title": "Min. order 2 pcs",
             "description": "<p>We fullfill the order throught minimal order 2 pcs. Not necessarily the same</p>",
-            "custom_liquid": "<div class=\"badgeusa usa-badge\">\n        <img src=\"https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg\" class=\"icon\" alt=\"USA Flag\">\n        Adapted for USA\n    </div>\n\n        <style>\n        .badges-container {\n            display: inline-block;\nmargin-top:-10px;\nmargin-bottom:-10px;\n        }\n\n        .badgeusa {\npadding: 0 12px;\n\n            display: flex;\n            align-items: center;\n           margin-bottom: .5rem;\n            font-size: 16px;\n            font-weight: bold;\n            border-radius: 10px;\n           \n            border: 1px solid rgba(255, 0, 0, 0.5);\n         \n        }\n\n        .usa-badge {\nmargin: auto 0;\nheight: 38px;\n            background: rgba(255, 0, 0, 0.2); /* Полупрозрачный красный фон */\n            color: #000;\nmin-width: fit-content;\n        }\n\n        .icon {\n            margin-right: 6px;\n            width: 16px;\n            height: 16px;\n        }\n@media screen and (max-width: 900px) {\n  .badges-container {\n            display: inline-block;\nmargin-top:-10px;\nmargin-bottom:15px;\n        }\n}\n    </style>",
+            "custom_liquid": "<div class=\"badgeusa usa-badge\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0761/7943/9962/files/twemoji_flag-peru.svg?v=1744017179\" class=\"icon\" alt=\"Peru Flag\">\n        Adapted for Peru\n    </div>\n\n        <style>\n        .badges-container {\n            display: inline-block;\nmargin-top:-10px;\nmargin-bottom:-10px;\n        }\n\n        .badgeusa {\npadding: 0 12px;\n\n            display: flex;\n            align-items: center;\n           margin-bottom: .5rem;\n            font-size: 16px;\n            font-weight: bold;\n            border-radius: 10px;\n           \n            border: 1px solid rgba(255, 0, 0, 0.5);\n         \n        }\n\n        .usa-badge {\nmargin: auto 0;\nheight: 38px;\n            background: rgba(255, 0, 0, 0.2); /* Полупрозрачный красный фон */\n            color: #000;\nmin-width: fit-content;\n        }\n\n        .icon {\n            margin-right: 6px;\n            width: 16px;\n            height: 16px;\n        }\n@media screen and (max-width: 900px) {\n  .badges-container {\n            display: inline-block;\nmargin-top:-10px;\nmargin-bottom:15px;\n        }\n}\n    </style>",
             "custom_liquid_2": "",
             "text_style": "body",
             "inventory_threshold": 10,
@@ -103,11 +103,11 @@
           "type": "key_Features",
           "settings": {
             "svg_icon_1": "<svg width=\"9\" height=\"10\" viewbox=\"0 0 7 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"3.5\" cy=\"4\" r=\"3.5\" fill=\"#DA9DFF\"></circle>\n</svg>",
-            "text_1": "Cut to fit your plate size",
+            "text_1": "Holds up to 50 kg",
             "svg_icon_2": "<svg width=\"9\" height=\"10\" viewbox=\"0 0 7 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"3.5\" cy=\"4\" r=\"3.5\" fill=\"#DA9DFF\"></circle>\n</svg>",
-            "text_2": "Holds up to 50 kg",
+            "text_2": "No drilling, car stays untouched",
             "svg_icon_3": "<svg width=\"9\" height=\"10\" viewbox=\"0 0 7 8\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<circle cx=\"3.5\" cy=\"4\" r=\"3.5\" fill=\"#DA9DFF\"></circle>\n</svg>",
-            "text_3": "No drilling, car stays untouched"
+            "text_3": "Clean, frameless style"
           }
         },
         "min_order": {
