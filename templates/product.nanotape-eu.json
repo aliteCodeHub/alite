@@ -1022,6 +1022,49 @@
         "discount_text": "Get up to",
         "discount_value": "-50% OFF"
       }
+    },
+    "rich_text_MbbtTd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Yc6YxL": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Alite Nanotape™ – Frameless Plate Holder for European Vehicles</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_Eziqcm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking for a smarter, cleaner way to mount your European license plate? The <strong>Alite Nanotape™ License Plate Frame for EU </strong> is a frameless solution that eliminates the need for brackets, screws, or bulky plastic surrounds. Using ultra-strong adhesive strips, this <strong>frameless license plate holder</strong> gives your car a minimalist, premium finish.</p><p>Designed to meet the dimensions and standards of EU plates, it offers a perfect fit for drivers across the continent. If you're tired of drilling into your car or dealing with frame rattle, this is the solution you’ve been waiting for.</p><h2><strong>Engineered Tape for Long-Lasting Hold</strong></h2><p>This product comes with specially formulated <strong>double sided number plate tape</strong>, strong enough to hold your plate under any condition. Whether you're facing hot summer sun or wet autumn weather, our <strong>tape for fixing number plates</strong>holds firm.</p><p>The adhesive resists vibration, wind, water, and UV rays, making it reliable across diverse driving conditions in Europe. It’s tested on highways, urban roads, and rough country terrain — ensuring your plate stays securely in place.</p><p>No matter where you drive, you’ll enjoy the peace of mind that comes with trusted adhesive technology.</p><h2><strong>Simple, No-Drill Installation in Minutes</strong></h2><p>Installation has never been easier. Simply clean your mounting area, apply the <strong>strip for fixing license plate</strong>, align your plate, and press. Done. The <strong>number plate tape for car</strong> saves you from drilling holes, using tools, or dealing with brackets that can damage your paint.</p><p>Even better — it’s removable if needed. Unlike traditional hardware, this <strong>license plate fixing strip</strong> won’t leave scratches or rust stains when you change or replace your plate.</p><p>It’s perfect for leased vehicles, ceramic-coated surfaces, or car owners who want to keep the original bodywork untouched.</p><h2><strong>One Plate, Universal EU Fit</strong></h2><p>The <strong>Alite Nanotape™ EU </strong>version is cut to match standard European license plate formats. Whether you’re in Germany, France, the Netherlands, or Spain, this <strong>number plate fixing strip</strong> fits your vehicle without modifications. Our <strong>number plate adhesive strips</strong> are flexible enough to bond with various surface types — from plastic bumpers to painted metal.</p><p>It’s ideal for compact cars, vans, motorcycles, or electric vehicles that follow EU plate regulations.</p><p>Even on curved or textured surfaces, the strips adapt perfectly, keeping the plate flush and stable.</p><h2><strong>Sleek Look Without Traditional Frames</strong></h2><p>With this <strong>plate holder without frames</strong>, your license plate appears seamlessly integrated into your car’s rear or front design. No frames to break, fade, or rattle — just a clean, frameless finish. The <strong>frameless number plate holder</strong> gives your car a refined appearance without sacrificing hold or function.</p><p>It’s the modern alternative for drivers who value simplicity, elegance, and vehicle preservation.</p><p>No one will even notice how your plate is mounted — and that’s exactly the point.</p><h2><strong>Why Choose Alite Nanotape™ for EU Plates?</strong></h2><ul><li>Designed specifically for one EU license plate</li><li>No drilling or tools needed</li><li>Long-lasting grip in all weather</li><li>Compatible with all standard European plate sizes</li><li>No visible hardware or bulky frames</li><li>Easy to install and remove if needed</li></ul><p>This <strong>no frame license plate holder</strong> is trusted by drivers across Europe who want to maintain their vehicle’s integrity while enjoying a cleaner, sleeker look.</p>"
+          }
+        },
+        "button_UNgnUq": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Yc6YxL",
+        "text_Eziqcm",
+        "button_UNgnUq"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -1040,6 +1083,7 @@
     "trustpilot_reviews_rX334P",
     "faq_rHnhTw",
     "background_photo_section_3JtPRH",
-    "popup_xM4VpJ"
+    "popup_xM4VpJ",
+    "rich_text_MbbtTd"
   ]
 }
