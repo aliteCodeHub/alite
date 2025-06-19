@@ -1122,6 +1122,49 @@
         "discount_text": "Get up to",
         "discount_value": "-50% OFF"
       }
+    },
+    "rich_text_GXwYxa": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_baTVG9": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Alite Nanotape™ – Frameless Plate Holder for US Cars</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_pk6miB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Say goodbye to screws, bulky frames, and drilling holes in your car. The <strong>Alite Nanotape™ License Plate Frame</strong> is a sleek, secure, and modern <strong>no frame license plate holder</strong> that mounts your plate cleanly with industrial-strength adhesive. No tools needed — just peel, stick, and press.</p><p>This <strong>frameless license plate holder</strong> is perfect for drivers who want a minimalist look without compromising on safety or durability. It eliminates the need for outdated hardware while offering long-lasting performance on any vehicle.</p><p>Unlike traditional metal or plastic frames that rattle, rust, or scratch your paint, Alite Nanotape provides a discreet and effective solution. The plate appears to \"float\" on your bumper with no visible fasteners.</p><p>It’s ideal for modern car enthusiasts who care about both functionality and appearance.</p><h2><strong>Strong Double-Sided Tape That Holds Tight</strong></h2><p>Built with premium <strong>double sided number plate tape</strong>, Alite Nanotape™ ensures your plate stays firmly attached — even at high speeds or during extreme weather. The <strong>tape for fixing number plates</strong> resists heat, cold, moisture, and road vibration, making it a reliable option year-round.</p><p>Our tape uses cutting-edge adhesive technology to create a lasting bond between your license plate and your vehicle. This allows it to survive pressure washers, automatic car washes, and harsh driving conditions without coming loose.</p><p>Its durability is unmatched in the segment — tested across thousands of miles on various road surfaces.</p><h2><strong>Fast, Damage-Free Installation for Everyone</strong></h2><p>Installing this <strong>strip for fixing license plate</strong> is quick and user-friendly. Simply clean the area, align the plate, apply the tape, and press firmly. The <strong>number plate tape for car</strong> means no holes, no scratches, and no leftover residue.</p><p>There’s no need for special skills, tools, or garage time — anyone can do it in under five minutes.</p><p>This <strong>license plate fixing strip</strong> is also a great solution for leased vehicles, ceramic-coated cars, or anyone looking to protect their paintwork from bolts and brackets. If you ever need to remove it, the adhesive lifts cleanly with no damage to the surface.</p><p>It’s also ideal for temporary installations — such as dealer plates or short-term tags.</p><h2><strong>Universal Fit for All Standard US Plates</strong></h2><p>Whether you drive a sedan, SUV, sports car, or pickup, the Alite Nanotape™ works with any standard U.S. license plate. Each <strong>number plate fixing strip</strong> is sized to fit plate dimensions precisely, giving a flush and balanced look. The <strong>number plate adhesive strips</strong> stick to most vehicle surfaces — painted metal, glass, and textured plastic.</p><p>Curved bumpers? No problem. The flexible adhesive material conforms to curves, corners, and uneven finishes. It holds securely in both hot and cold conditions, from desert heat to snowy roads.</p><p>Even after months of wear and weather, your plate stays where it belongs.</p><h2><strong>Minimalist Style Without Visible Frames</strong></h2><p>The <strong>plate holder without frames</strong> offers a clean, modern finish that keeps your vehicle’s design front and center. This <strong>frameless number plate holder</strong> is nearly invisible once applied — a smart choice for drivers who appreciate subtle, refined design.</p><p>Whether you’re showcasing your car at events or just want it looking sharp every day, the <strong>strip for fixing number plate</strong> provides a low-profile, high-grip mounting method that doesn’t compromise your car’s appearance.</p><p>It’s especially ideal for ceramic-coated cars where drilling is not an option, and for detailing professionals who want to maintain flawless body lines.</p>"
+          }
+        },
+        "button_CyYwL9": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_baTVG9",
+        "text_pk6miB",
+        "button_CyYwL9"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -1143,6 +1186,7 @@
     "also_like_XWLwk6",
     "faq_crXear",
     "background_photo_section_3JtPRH",
-    "popup_xM4VpJ"
+    "popup_xM4VpJ",
+    "rich_text_GXwYxa"
   ]
 }
