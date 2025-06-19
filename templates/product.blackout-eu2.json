@@ -986,6 +986,49 @@
         "discount_text": "Get up to",
         "discount_value": "-50% OFF"
       }
+    },
+    "rich_text_FTkTgE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tfqTLH": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Alite Blackout License Plate Hider - Front and Rear kit For EU Plates</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_7LA6e6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Take full control of your plate visibility across Europe with the <strong>Alite Blackout™ License Plate Hider – Front and Rear Kit (EU version)</strong>. Designed for vehicles using EU-standard rectangular license plates, this system allows you to hide both your front and rear plates at the push of a button.</p><p>Whether you're attending car events or filming media content, this <strong>blackout license plate cover</strong> brings professional-grade discretion with factory-level fit and finish.</p><h2><strong>Stealth License Plate Technology with No Moving Parts</strong></h2><p>At the heart of each unit is an advanced electrochromic film that instantly turns opaque, creating a fully <strong>stealth license plate</strong> system. Unlike flip-out or motorized models, this technology has no moving parts—meaning zero mechanical wear, zero noise, and faster response.</p><p>Both covers sync together to activate simultaneously, maintaining a balanced and consistent look whether parked or in motion.</p><h2><strong>Remote-Controlled Dual Plate Concealment</strong></h2><p>The <strong>license plate hider front and rear kit</strong> includes a compact, encrypted remote that controls both panels from up to 20 meters away. With one tap, your plates switch from visible to blacked out—and back again—with no delay.</p><p>Key features include:</p><ul><li>Dual-panel control from a single remote</li><li>Secure pairing with interference resistance</li><li>Sleep mode for energy-saving standby</li><li>Long-range wireless response even through glass or metal</li></ul><p>This solution offers the same premium experience found in luxury OEM vehicle systems, but with greater flexibility.</p><h2><strong>Custom-Fit for European License Plates</strong></h2><p>Each blackout panel is crafted to match <strong>EU license plate</strong> dimensions exactly, ensuring proper fit across cars from Germany, France, Spain, Italy, the Netherlands, and more. The edges are sealed with a weatherproof barrier to protect internal film layers from moisture, dust, and debris.</p><p>Even during extreme rain or temperature shifts, the blackout film remains fully functional and visually clear when deactivated.</p><h2><strong>Simple Installation – No Modifications Needed</strong></h2><p>The <strong>Alite Blackout™ License Plate Hider kit</strong> mounts using standard EU plate holes, with no cutting, drilling, or bodywork required. A complete installation kit is included, featuring weatherproof wiring, stainless steel fasteners, and detailed setup instructions.</p><p>Prefer to avoid screws entirely? Use it with <strong>Alite Nanotape™</strong> for a seamless, drill-free mounting experience.</p><p>Install both panels in under an hour — no special tools or expertise required.</p><h2><strong>Why Choose the Alite Blackout Front and Rear Kit (EU)?</strong></h2><ul><li>Includes blackout covers for both plates</li><li>Remote-controlled for quick, synchronized blackout</li><li>Fits all standard EU license plate formats</li><li>All-weather composite frame and IP65 sealing</li><li>Ideal for shows, filming, exhibitions, or private parking</li><li>Silent, motor-free technology built to last</li></ul><p>If you’ve searched for a <strong>stealth number plate cover</strong> that’s reliable, modern, and built for European cars — this is it. Unlike mechanical systems that eventually fail or draw unwanted attention, Alite’s film-based design keeps things quiet, subtle, and effective.</p><h2><strong>Order Your EU License Plate Hider Kit Today</strong></h2><p>The <strong>Alite Blackout™ Front and Rear License Plate Hider Kit</strong> offers a complete, legal-use solution for modern European drivers who want style and privacy. Enjoy fast EU-wide shipping, multilingual support, and top-tier build quality — only at <a href=\"https://alite.cc/\">Alite.cc</a>.</p><p>Drive smarter. Go stealth. Stay in control.</p>"
+          }
+        },
+        "button_cFzVMi": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tfqTLH",
+        "text_7LA6e6",
+        "button_cFzVMi"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -1008,6 +1051,7 @@
     "ts_faq_cXFVAH",
     "faq_e9mLzM",
     "background_photo_section_3JtPRH",
-    "popup_xM4VpJ"
+    "popup_xM4VpJ",
+    "rich_text_FTkTgE"
   ]
 }
