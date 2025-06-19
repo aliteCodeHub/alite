@@ -865,6 +865,49 @@
         "discount_text": "Get up to",
         "discount_value": "-50% OFF"
       }
+    },
+    "rich_text_hmnNLB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KenJeA": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Alite Flipper™ Folding frame for front license plate - Hard Traction</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_bGLU4F": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking for a simple and robust way to hide your front license plate? The <strong>Alite Flipper™ Folding Frame for Front License Plate (Hard Traction)</strong> is a low-profile, mechanically operated solution built for maximum reliability. Unlike motorized or cable systems, this hard-traction design uses a rigid pull-and-lock system to conceal your plate on demand—no power source required.</p><p>It’s the ideal front <strong>license plate hider</strong> for drivers who want discreet control without the complexity of electronics or remotes.</p><h2><strong>Manual Folding Plate System with Rigid Traction Arm</strong></h2><p>The Alite Flipper™ Hard Traction system is designed to fold your plate underneath the bumper using a strong, mechanical linkage. The folding motion is triggered manually using a rigid control rod or lever system mounted near the front grille.</p><p>Once activated, the plate folds backward into a hidden compartment or undercarriage slot, making it completely invisible from the front. When needed, it easily locks back into place in its full visible position.</p><p>This <strong>manual folding license plate frame</strong> offers a balance of stealth, control, and durability — with zero electrical points of failure.</p><h2><strong>No Electronics. No Delays. Just Pure Mechanical Control</strong></h2><p>Unlike remote-controlled systems that rely on power and wireless signals, this <strong>hard traction license plate hider</strong> is all mechanical. That means no drained batteries, no fuse tapping, and no interference from other devices. You stay in full control—instantly, and physically.</p><p>It’s a perfect match for show cars, classic vehicles, or track builds where reliability is key and electric systems are kept to a minimum.</p><h2><strong>Built to Last in Harsh Driving Conditions</strong></h2><p>Every component of the <strong>Alite Flipper™ mechanical plate system</strong> is crafted from weather-resistant materials, including stainless steel pivots and high-grade polymer joints. Whether you’re dealing with snow, mud, road salt, or heat, the hard traction linkage continues working with zero compromise.</p><p>No squeaking, jamming, or rusting — just a consistent fold-away function that lasts through seasons and miles.</p><p>If you're looking for a <strong>front license plate flipper</strong> that thrives in real-world conditions, this is your answer.</p><h2><strong>Universal Fit for All Front Bumpers</strong></h2><p>The Alite Flipper™ Hard Traction system is designed to be universally compatible with most front bumpers, including sedans, coupes, and performance cars. It attaches using included mounting brackets and can be adjusted for different bumper shapes and clearances.</p><p>The installation process is quick and doesn’t require any electronic integration. Most users can install the system using basic tools in under 45 minutes.</p><p>Detailed instructions and all required hardware are included for a fast, frustration-free setup.</p><h2><strong>Why Choose the Alite Flipper™ Front Plate – Hard Traction Version?</strong></h2><ul><li>Mechanical system = no power or remotes needed</li><li>Strong traction arm ensures precise folding action</li><li>No wiring, no risk of short-circuits</li><li>Weather-resistant build for all climates</li><li>Perfect for events, garages, or manual-use situations</li><li>Simple installation with universal fit</li></ul><p>If you want a <strong>folding license plate frame</strong> that performs consistently and doesn’t rely on electronics, the hard traction version delivers exactly that — tough, minimal, and dependable.</p><h2><strong>Order Alite Flipper™ Hard Traction System Today</strong></h2><p>Take full mechanical control of your front plate with the <strong>Alite Flipper™ Folding Frame – Hard Traction</strong> version. Durable, easy to install, and built to last, it’s the cleanest non-electric way to stay discreet when needed.</p><p>Get yours now at <a href=\"https://alite.cc/\">Alite.cc</a> and experience true reliability — no wires, no motors, just results.</p>"
+          }
+        },
+        "button_4jBNxG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KenJeA",
+        "text_bGLU4F",
+        "button_4jBNxG"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -886,6 +929,7 @@
     "faq_e9Mp9F",
     "background_photo_section_3JtPRH",
     "17400626977be743ac",
-    "popup_4a7ptW"
+    "popup_4a7ptW",
+    "rich_text_hmnNLB"
   ]
 }
