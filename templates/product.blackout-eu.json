@@ -899,14 +899,14 @@
         "heading_pfxtfh": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "<strong>Alite Blackout™ License Plate Hider – Single Kit for EU Plates</strong>",
             "heading_size": "h1"
           }
         },
         "text_qPNEEN": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>If you’re looking for a reliable way to control your license plate visibility while keeping a sleek, OEM-like appearance, the <strong>Alite Blackout™ License Plate Hider – Single Kit (EU version)</strong> is the perfect solution. Designed for European license plate dimensions, this one-piece kit brings premium stealth technology to any vehicle.</p><p>Whether used on the front or rear, this <strong>blackout license plate hider</strong> offers instant transformation at the press of a button. Clean, legal in many passive-use scenarios, and built for real driving conditions — it’s everything you want from a high-end plate concealment system.</p><h2><strong>Smart Blackout Technology – Powered by Film, Not Moving Parts</strong></h2><p>At the core of this system is electrochromic film, which transitions from transparent to opaque in less than a second. Unlike hinged or mechanical frames, this <strong>stealth number plate cover</strong> contains no moving components. That means no noise, no wear over time, and zero risk of mechanical failure.</p><p>With a single tap on the wireless remote, your plate can disappear from view — perfect for privacy-focused drivers, media projects, or parking in private areas.</p><p>This smart design also eliminates the need for bulky hardware, making the installation low-profile and discreet.</p><h2><strong>One Plate, Full Control – Remote Activation Included</strong></h2><p>The <strong>Alite Blackout™ single kit</strong> comes with a dedicated wireless controller. You can activate blackout mode from inside your car or up to 20 meters away, giving you full flexibility in all situations. The remote connects securely and responds instantly with no lag or interference.</p><p>Whether you install the hider on the front or rear plate, you’ll have instant access to visibility control at your fingertips.</p><p>It’s ideal for car shoots, track events, or high-end car meets where appearance and privacy go hand in hand.</p><h2><strong>Designed for European License Plates</strong></h2><p>This single blackout panel is custom-cut to fit <strong>EU standard license plates</strong>, including those in Germany, France, Italy, Spain, the Netherlands, and other countries. The sleek frame lines and proportional dimensions make it blend seamlessly with European car aesthetics.</p><p>Unlike many imported alternatives, this <strong>EU stealth plate cover</strong> is built to comply with regional sizing and shape — no gaps, no overhangs, no modifications needed.</p><p>It’s also fully weather-sealed, making it suitable for both hot southern climates and freezing northern regions.</p><h2><strong>Built to Perform in Any Conditions</strong></h2><p>Alite products are engineered with durability in mind. The outer shell of this <strong>license plate hider</strong> is made of high-strength composite with thermal resistance and water protection. Whether you’re driving through snow, rain, heat, or dust, the blackout system will perform reliably.</p><p>It’s shock-tested to withstand road vibration, dirt buildup, and extreme temperature fluctuations — making it a solid choice for daily drivers and enthusiast vehicles alike.</p><p>This isn’t just about looks — it’s a fully functional piece of modern driving tech.</p><h2><strong>Why Choose the Alite Blackout™ Single Kit (EU Version)?</strong></h2><ul><li>Clean, instant license plate concealment</li><li>Remote-controlled activation with fast response</li><li>Fits all EU-standard license plates</li><li>No motors, no hinges — zero mechanical failure</li><li>All-weather, low-profile design</li><li>Easy to install with clear instructions included</li></ul><p>Use it on your front plate for events or shows, or mount it on the rear for added discretion when needed. Combine it with a second unit later for a full front-and-rear setup.</p>"
           }
         }
       },
@@ -914,7 +914,6 @@
         "heading_pfxtfh",
         "text_qPNEEN"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "left",
