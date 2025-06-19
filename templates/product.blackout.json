@@ -921,6 +921,49 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "rich_text_9NA9EB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_e73AcR": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Alite Blackout™ License Plate Hider – Single Kit for US Plates</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_pMAhCw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking for the ultimate privacy upgrade for your vehicle? The <strong>Alite Blackout™ License Plate Hider – Single Kit (US version)</strong> is engineered to give drivers complete control over plate visibility with a single press. Designed specifically for <strong>standard U.S. license plates</strong>, this innovative system brings stealth-grade concealment technology to your daily drive.</p><p>Whether you mount it on the front or rear of your vehicle, this one-piece system combines cutting-edge electro-optic film with a sleek low-profile frame. No bulk. No noise. No compromise.</p><h2><strong>Smart Stealth Technology for License Plate Privacy</strong></h2><p>The Alite Blackout™ system uses electrochromic film technology to transition between visible and blackout mode in less than a second. This <strong>stealth license plate hider</strong> contains no mechanical parts, making it more durable and silent than motorized or flip-style alternatives.</p><p>With no moving elements, there’s nothing to break, jam, or wear out. Just instant plate concealment whenever you need it — for shows, private property access, or media production.</p><p>Unlike other covers, Alite delivers true stealth with OEM-level aesthetics and responsiveness.</p><h2><strong>Wireless Remote-Controlled Plate Concealment</strong></h2><p>Included in the kit is a compact, encrypted wireless remote, designed to control the blackout function from inside your vehicle — or from a distance of up to 65 feet (20 meters). One button turns the <strong>license plate hider</strong> dark; another brings it back to full visibility.</p><p>Features at a glance:</p><ul><li>One-touch blackout activation</li><li>Secure pairing and stable signal</li><li>Long-range control even through tinted glass</li><li>Immediate blackout or reappearance on demand</li></ul><p>Perfect for photography, shows, or secure parking situations.</p><h2><strong>Custom-Fit for US License Plate Dimensions</strong></h2><p>This single unit is precision-crafted for <strong>U.S. license plates</strong>, ensuring edge-to-edge coverage with a flush fit. Whether you’re in California, Texas, Florida, or New York, the Alite Blackout™ panel installs cleanly with no gaps or overhangs.</p><p>Its slim frame keeps a low profile, complementing the design of modern vehicles — from muscle cars and trucks to exotics and EVs. The outer shell is made from a durable composite material designed to withstand daily driving, road debris, and temperature swings.</p><h2><strong>Built to Handle All Driving Conditions</strong></h2><p>From rainy highways to dusty backroads, this <strong>blackout license plate cover</strong> is rated for everyday use in real-world environments. The system is sealed to prevent moisture and dust ingress, and the film retains full clarity when not in blackout mode — with no haze, glow, or residue.</p><p>Whether exposed to freezing snow or summer heat, the panel keeps working — silently, efficiently, and without external signs of wear.</p><p>It’s a reliable option for those who expect both performance and presentation.</p><h2><strong>Why Choose Alite Blackout™ Single Kit (US Version)?</strong></h2><ul><li>Designed for all standard U.S. license plates</li><li>Includes one panel and wireless remote</li><li>Instant blackout using electro-optic film</li><li>Durable, weather-resistant construction</li><li>Clean, legal-use applications for events or filming</li><li>Ideal for front or rear plate mounting</li></ul><p>This <strong>stealth number plate cover</strong> is a game-changer for privacy-conscious drivers and auto enthusiasts alike.</p><h2><strong>Buy Alite Blackout™ for US Plates Today</strong></h2><p>Get full control over your plate visibility with the <strong>Alite Blackout™ License Plate Hider – Single Kit (US version)</strong>. Whether you're preparing for a show, filming, or protecting your plate in private spaces, this single-panel solution is sleek, fast, and built to last.</p><p>Shop now at <a href=\"https://alite.cc/\">Alite.cc</a> and experience next-gen stealth for your vehicle.</p>"
+          }
+        },
+        "button_gdAU9y": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_e73AcR",
+        "text_pMAhCw",
+        "button_gdAU9y"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -944,6 +987,7 @@
     "background_photo_section_3JtPRH",
     "1740062737b3c50591",
     "popup_xM4VpJ",
-    "999436417145632022"
+    "999436417145632022",
+    "rich_text_9NA9EB"
   ]
 }

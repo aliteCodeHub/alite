@@ -890,6 +890,49 @@
         "discount_text": "Get up to",
         "discount_value": "-50% OFF"
       }
+    },
+    "rich_text_eDcm8N": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_TknVHc": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Alite Blackout License Plate Hider - Front and Rear kit for US Plates</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_qUNiQV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get complete control over your plate visibility with the <strong>Alite Blackout™ License Plate Hider – Front and Rear Kit (US version)</strong>. Designed to fit all standard U.S. license plates, this dual-panel solution allows you to black out both front and rear plates instantly using electro-optic film technology. No noise. No moving parts. Just clean, modern concealment at the press of a button.</p><p>Perfect for photo shoots, car shows, private parking, and off-road events — this system adds functionality without compromising your vehicle’s design.</p><h2><strong>Advanced Stealth License Plate Technology</strong></h2><p>Unlike mechanical covers or flip-down models, Alite uses advanced electrochromic film to switch between clear and opaque states in under a second. This <strong>stealth license plate hider</strong> is silent, reliable, and completely electronic — there are no motors, sliders, or exposed hardware.</p><p>With both panels synced via wireless remote, your plates can disappear and reappear simultaneously, delivering a cohesive, professional-grade finish.</p><p>No mechanical clatter. No lag. Just instant privacy when you want it.</p><h2><strong>Wireless Remote for Dual Plate Control</strong></h2><p>The <strong>license plate hider front and rear kit</strong> includes a secure wireless controller that activates both panels at once. The compact remote features a strong signal range of up to 65 feet (20 meters), letting you operate your blackout system from inside the vehicle or nearby.</p><p>Remote features:</p><ul><li>One-touch full blackout mode</li><li>Instant return to plate visibility</li><li>Secure pairing with signal encryption</li><li>Energy-efficient design for long battery life</li></ul><p>Enjoy full authority over your plates from the driver’s seat or the garage floor.</p><h2><strong>Designed for Standard U.S. Plate Dimensions</strong></h2><p>Each blackout panel is molded to fit <strong>U.S. license plates</strong> precisely — no trimming, no gaps, no awkward overhang. Whether you’re driving a muscle car, pickup, SUV, or EV, the Alite Blackout™ kit provides a flush, frame-like fit that looks factory-installed.</p><p>The frame is composed of a durable, high-temp composite material with a low-gloss black finish that blends seamlessly with modern vehicle aesthetics.</p><h2><strong>Weatherproof and Road-Ready Construction</strong></h2><p>From blazing heat to snowy roads, this <strong>blackout license plate cover</strong> is designed to perform under pressure. The panels are sealed against water, dust, and road grime, while the internal film stays crystal clear in its default (transparent) state.</p><p>Whether you're facing rain, sand, salt, or sun, your blackout kit keeps working — without fogging, flickering, or yellowing over time.</p><p>It’s built for real roads, not just showroom displays.</p><h2><strong>Why Choose the Alite Blackout™ Dual Kit (US Version)?</strong></h2><ul><li>Blackout covers for both front and rear U.S. plates</li><li>Smart wireless remote included</li><li>No motors, hinges, or noise</li><li>Ideal for photography, events, and privacy zones</li><li>Weather-resistant, all-season durability</li><li>Easy installation with existing plate mounts</li></ul><p>This <strong>stealth number plate cover</strong> solution gives you flexibility, performance, and visual appeal — all in one package.</p><h2><strong>Order the Dual Blackout Plate Kit Today</strong></h2><p>Upgrade your ride with the <strong>Alite Blackout™ Front and Rear License Plate Hider Kit (US version)</strong> — the most discreet, durable, and easy-to-use concealment system available. Fast U.S. shipping and expert support are available exclusively at <a href=\"https://alite.cc/\"><strong>Alite.cc</strong></a>.</p><p>Take privacy into your own hands — the smart way.</p>"
+          }
+        },
+        "button_kg4Akk": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TknVHc",
+        "text_qUNiQV",
+        "button_kg4Akk"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -911,6 +954,7 @@
     "865377611828215098",
     "trustpilot_reviews_fpYdHw",
     "background_photo_section_3JtPRH",
-    "popup_xM4VpJ"
+    "popup_xM4VpJ",
+    "rich_text_eDcm8N"
   ]
 }
