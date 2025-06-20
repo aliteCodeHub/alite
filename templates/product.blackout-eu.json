@@ -620,6 +620,12 @@
         "video_8WE6na",
         "video_YDhNPB"
       ],
+      "custom_css": [
+        ".ts-video__inner {max-height: 550px; display: block; cursor: pointer;}",
+        ".ts-videos {max-height: 700px; border-bottom: 0;}",
+        ".ts-videos__container {max-width: 1240px; margin: 0 auto 0px; padding: 0 37px; position: relative;}",
+        "@media screen and (max-width: 1220px) {.ts-video__inner {max-height: 400px; display: block; cursor: pointer; } .ts-videos__title {text-align: left; } .ts-videos {max-height: 600px; border-bottom: 0; }}"
+      ],
       "settings": {
         "title": "Testimonials",
         "description": ""
