@@ -1101,23 +1101,11 @@
           "settings": {
             "text": "<p>Need complete control over your rear license plate visibility? The <strong>Alite Flipper™ Folding Frame for Rear License Plate (on a cable)</strong> is a smart, durable, and discreet solution built for drivers who value privacy and performance. Designed for the rear plate only, this cable-operated system offers remote-controlled concealment without bulky motors or rotating brackets.</p><p>Whether you're attending a car show, recording automotive content, or parking in a private area, this <strong>rear license plate flipper</strong> gives you smooth, stealthy retraction of your plate when you need it most.</p><h2><strong>Cable-Driven Plate Concealment Technology</strong></h2><p>Unlike fully motorized kits, this system uses a <strong>cable-actuated mechanism</strong> that pulls the plate under the bumper when activated. The motion is smooth and fast, offering the same invisibility as high-end flip systems—but with fewer components, less weight, and easier maintenance.</p><p>When retracted, your license plate is completely out of sight. When extended, it appears in its standard legal position with zero distortion or misalignment.</p><p>It’s a simple and effective system for anyone looking for a <strong>folding license plate frame</strong> that works reliably every time.</p><h2><strong>Remote-Controlled Rear Plate Hider</strong></h2><p>This kit includes a compact wireless remote, giving you instant access to plate concealment. The signal range extends up to 20 meters, allowing you to retract or reveal your rear plate from inside your vehicle or nearby.</p><p>Remote features include:</p><ul><li>One-button activation</li><li>Quick retraction and return</li><li>Secure signal pairing</li><li>Compact design with long battery life</li></ul><p>The <strong>cable-operated plate hider</strong> responds immediately and is built for everyday use in real-world driving conditions.</p><h2><strong>Built Tough for All Weather and Roads</strong></h2><p>The <strong>Alite Flipper™ rear license plate frame</strong> is made from high-strength materials, including corrosion-resistant brackets and sealed cable routing. Whether you’re driving through rain, snow, or dust, the frame performs reliably without jamming, shaking, or loosening.</p><p>The system is water-resistant and road-tested for vibration, making it perfect for long-term daily use. You can count on it to work cleanly every time you hit the switch.</p><p>This makes it ideal not just for events, but also for daily drivers who want stealth without sacrificing safety.</p><h2><strong>Universal Fit and Easy Installation</strong></h2><p>The <strong>electric rear plate hider on cable</strong> is designed for compatibility with most cars, trucks, and SUVs. It mounts directly behind your existing license plate using adjustable brackets and standard tools. The cable is routed to a hidden motor unit, powered by a 12V source from your vehicle’s fuse box or accessory line.</p><p>Installation requires minimal drilling, and the kit includes full instructions, mounting hardware, and wiring components.</p><p>Most installs can be completed in under an hour, even by DIY users.</p><h2><strong>Why Choose the Alite Flipper™ Rear Plate Cable Version?</strong></h2><ul><li>Cable-driven system = fewer moving parts and less bulk</li><li>Discreetly hides the rear plate with zero visibility</li><li>Includes wireless remote with reliable signal</li><li>Built for rough roads and harsh weather</li><li>Lightweight, corrosion-resistant materials</li><li>Simple install, no specialty tools needed</li></ul><p>If you’re looking for a <strong>rear license plate flipper</strong> that’s smart, efficient, and designed with stealth in mind — this is your go-to kit. It provides full rear control with a lightweight, no-fuss design.</p><h2><strong>Order the Alite Flipper™ Rear Cable System Today</strong></h2><p>Experience the perfect balance of form and function with the <strong>Alite Flipper™ Folding Frame for Rear License Plate (on a cable)</strong>. Get yours now at <a href=\"https://alite.cc/\">Alite.cc</a> with fast shipping, expert support, and installation-ready packaging.</p><p>Take control. Stay discreet. Drive smarter.</p>"
           }
-        },
-        "button_FAEG7L": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_DMVEaK",
-        "text_a3PeXL",
-        "button_FAEG7L"
+        "text_a3PeXL"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
