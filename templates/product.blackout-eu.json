@@ -884,7 +884,7 @@
         "faq_item_PQ7RUi"
       ],
       "custom_css": [
-        ".faq-selector {padding-top: 0px; margin-bottom: -50px;}",
+        ".faq-selector {padding-top: 0px; margin-bottom: -20px;}",
         ".selector-header {display: none;}",
         ".product-selector-wrapper {display: none;}",
         ".button-divider {display: none !important;}",
