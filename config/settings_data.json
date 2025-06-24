@@ -228,7 +228,8 @@
           ".ts-footer__social.ts-social {margin: 0px;}",
           ".ts-footer {padding: 0px 0 80px;}",
           ".new-footer-contact_us h2 {margin: 16px 0 10px;}",
-          "@media (max-width: 768px) {.new-footer-contact_us h2 {margin: 0 0 20px; }}"
+          "@media (max-width: 768px) {.new-footer-contact_us h2 {margin: 0 0 20px; }}",
+          "ul li {padding-bottom: 0px;}"
         ],
         "settings": {
           "email_subscription": false,
