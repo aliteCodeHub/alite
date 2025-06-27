@@ -263,7 +263,7 @@
           "type": "cell",
           "settings": {
             "icon": "shopify://shop_images/shield_2_4.svg",
-            "image": "shopify://shop_images/Gif_2_1.gif",
+            "image": "shopify://shop_images/remote_us.gif",
             "title": "Stealth Technology",
             "text": "Thanks to its sealed construction and durable components, the Alite Blackout requires minimal upkeep, ensuring long-lasting performance",
             "position-x": 2,
@@ -344,7 +344,7 @@
         "cell_t7WWB9": {
           "type": "cell",
           "settings": {
-            "image": "shopify://shop_images/Gif_1_eaf08dd3-a220-4a94-aae3-03d8964efcdf.gif",
+            "image": "shopify://shop_images/usa_install.gif",
             "title": "Easy Installation",
             "text": "Quick and easy setup with no need for complex wiring or modifications.",
             "position-x": 3,
