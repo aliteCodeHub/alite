@@ -343,7 +343,7 @@
         "cell_t7WWB9": {
           "type": "cell",
           "settings": {
-            "image": "shopify://shop_images/Gif_1.gif",
+            "image": "shopify://shop_images/eu_install.gif",
             "title": "Easy Installation",
             "text": "Quick and easy setup with no need for complex wiring or modifications.",
             "position-x": 3,
@@ -360,7 +360,7 @@
           "type": "cell",
           "settings": {
             "icon": "shopify://shop_images/pult2.svg",
-            "image": "shopify://shop_images/Gif_3.gif",
+            "image": "shopify://shop_images/eu_remote.gif",
             "title": "Simple Activation",
             "text": "Activate or deactivate the blackout mode in a split second with a wireless remote.",
             "position-x": 1,
