@@ -280,7 +280,7 @@
           "type": "cell",
           "settings": {
             "icon": "shopify://shop_images/shield_2_4.svg",
-            "image": "shopify://shop_images/remote_us.gif",
+            "image": "shopify://shop_images/Gif_2_1.gif",
             "title": "Stealth Technology",
             "text": "Thanks to its sealed construction and durable components, the Alite Blackout requires minimal upkeep, ensuring long-lasting performance",
             "position-x": 2,
@@ -378,7 +378,7 @@
           "type": "cell",
           "settings": {
             "icon": "shopify://shop_images/pult2.svg",
-            "image": "shopify://shop_images/Gif_3_f90a600a-60f9-4335-98af-14a7356ec177.gif",
+            "image": "shopify://shop_images/remote_us.gif",
             "title": "Simple Activation",
             "text": "Activate or deactivate the blackout mode in a split second with a wireless remote.",
             "position-x": 1,
