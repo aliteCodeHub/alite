@@ -120,7 +120,7 @@
       ],
       "custom_css": [
         "@media screen and (max-width: 749px) {.ts-drawer__link-top .ts-drawer__label--top {padding: 0px 0; }}",
-        ".ts-header__controls {width: 30%;}"
+        ".ts-header__controls {width: 0%;}"
       ],
       "settings": {
         "logo": "shopify://shop_images/green-black-logo_1364594e-ae5e-48a3-96e2-1d32c2b74dbb.svg",
