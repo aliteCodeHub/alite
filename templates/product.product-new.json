@@ -79,6 +79,12 @@
           "type": "price",
           "settings": {}
         },
+        "custom_liquid_6Y9kpx": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"discountp\"><span class=\"discountspan\">FREE SHIPPING</span> on order over $99</p>\n\n<style>\n.discountp {\ndisplay: inline-block;\nbackground-image: url(\"https://cdn.shopify.com/s/files/1/0761/7943/9962/files/free_ship_12.png?v=1751364774\");\nbackground-repeat: no-repeat;\nbackground-size: contain;\nfont-size: 13px;\nfont-weight: bold;\ncolor: #000;\npadding-bottom: 10px;\nwidth:293px; \nheight:50px;\ntext-align: center;\npadding-top: 7px;\nmargin: 0;\n}\n.discountspan {\nfont-weight: bolder;\n}\n</style>"
+          }
+        },
         "badges_gyajXg": {
           "type": "badges",
           "settings": {
@@ -165,6 +171,7 @@
         "af8843b7-46ae-437f-9373-7e8295b1696a",
         "custom_liquid_RDgEkt",
         "price",
+        "custom_liquid_6Y9kpx",
         "badges_gyajXg",
         "ec0b6397-acd0-461a-8d62-4e004249a46b",
         "75b2a44d-a6aa-44ca-8387-12cb4450ba5d",
@@ -179,7 +186,8 @@
       "custom_css": [
         ".product__inventory {border: 1px solid #48d175 !important;}",
         ".ts-min-order__badge {border: 1px solid #e0103a !important;}",
-        ".scroll_year-block {padding: 18px; border: 1px #000 solid; width: auto;}"
+        ".scroll_year-block {padding: 18px; border: 1px #000 solid; width: auto;}",
+        ".ts-badges {margin-top: 0;}"
       ],
       "settings": {
         "enable_sticky_info": false,
