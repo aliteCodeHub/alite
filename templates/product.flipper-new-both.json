@@ -149,7 +149,8 @@
         "98561621-2ada-4de4-8a2b-293806642c93"
       ],
       "custom_css": [
-        ".product__inventory {border: 1px solid #48d175 !important; font-size: 16px;}"
+        ".product__inventory {border: 1px solid #48d175 !important; font-size: 16px;}",
+        ".ts-badges {margin-top: 0;}"
       ],
       "settings": {
         "enable_sticky_info": false,
