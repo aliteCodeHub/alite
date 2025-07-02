@@ -72,6 +72,12 @@
           "type": "price",
           "settings": {}
         },
+        "custom_liquid_WMnQBK": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"discountp\"><span class=\"discountspan\">FREE SHIPPING</span> on order over $99</p>\n\n<style>\n.discountp {\ndisplay: inline-block;\nbackground-image: url(\"https://cdn.shopify.com/s/files/1/0761/7943/9962/files/free_ship_12.png?v=1751364774\");\nbackground-repeat: no-repeat;\nbackground-size: contain;\nfont-size: 13px;\nfont-weight: 600;\ncolor: #000;\npadding-bottom: 10px;\nwidth:296px; \nheight:50px;\ntext-align: center;\npadding-top: 7px;\nmargin: 0;\n}\n.discountspan {\nfont-weight: 800;\n}\n</style>"
+          }
+        },
         "badges_gyajXg": {
           "type": "badges",
           "disabled": true,
@@ -186,6 +192,7 @@
         "custom_liquid_Kx939g",
         "af8843b7-46ae-437f-9373-7e8295b1696a",
         "price",
+        "custom_liquid_WMnQBK",
         "badges_gyajXg",
         "badges_xGYHhU",
         "key_features_FtA6eT",
@@ -201,7 +208,8 @@
       ],
       "custom_css": [
         ".product__inventory {border: 1px solid #48d175 !important; font-size: 16px;}",
-        ".ts-badge--inventory {display: flex;}"
+        ".ts-badge--inventory {display: flex;}",
+        ".ts-badges {margin-top: 0;}"
       ],
       "settings": {
         "enable_sticky_info": false,
@@ -361,7 +369,7 @@
         "cell_t7WWB9": {
           "type": "cell",
           "settings": {
-            "image": "shopify://shop_images/Gif_1_eaf08dd3-a220-4a94-aae3-03d8964efcdf.gif",
+            "image": "shopify://shop_images/usa_install.gif",
             "title": "Easy Installation",
             "text": "Quick and easy setup with no need for complex wiring or modifications.",
             "position-x": 3,
@@ -378,7 +386,7 @@
           "type": "cell",
           "settings": {
             "icon": "shopify://shop_images/pult2.svg",
-            "image": "shopify://shop_images/Gif_3_f90a600a-60f9-4335-98af-14a7356ec177.gif",
+            "image": "shopify://shop_images/remote_us.gif",
             "title": "Simple Activation",
             "text": "Activate or deactivate the blackout mode in a split second with a wireless remote.",
             "position-x": 1,
@@ -639,6 +647,12 @@
         "video_DxpjgK",
         "video_pFRJMz"
       ],
+      "custom_css": [
+        ".ts-video__inner {max-height: 550px; display: block; cursor: pointer;}",
+        ".ts-videos {max-height: 700px; border-bottom: 0;}",
+        ".ts-videos__container {max-width: 1240px; margin: 0 auto 0px; padding: 0 37px; position: relative;}",
+        "@media screen and (max-width: 1220px) {.ts-video__inner {max-height: 400px; display: block; cursor: pointer; } .ts-videos__title {text-align: left; } .ts-videos {max-height: 600px; border-bottom: 0; }}"
+      ],
       "settings": {
         "title": "Testimonials",
         "description": ""
@@ -745,8 +759,8 @@
             "sub_title": "",
             "question_1": "What versions of the Alite Blackout License Plate Hider are available?",
             "answer_1": "We offer multiple versions of the Alite Blackout, designed to accommodate both USA and European license plate sizes.\n<br>USA Versions: <br>\n- Alite Blackout License Plate Hider - for 1 license plate (US version)<br>\n- Alite Blackout License Plate Hider - for 2 license plates (US version)<br>\nEuropean Versions:<br>\n- Alite Blackout License Plate Hider - for 1 license plate (EU version)<br>\n- Alite Blackout License Plate Hider - for 2 license plates (EU version)<br>\nEach version ensures a perfect fit for its designated region, providing a seamless and discreet look.",
-            "question_2": "What does nanofilm include",
-            "answer_2": "Use the alcohol wipes provided in the kit to thoroughly clean the surface of the license plate. Ensure the plate is free from dust, dirt, and grease. Use the alcohol wipes provided in the kit to thoroughly clean the surface of the license plate.",
+            "question_2": "",
+            "answer_2": "",
             "question_3": "What is included in the Alite Blackout kit?",
             "answer_3": "Each kit contains:<br>\n- One or two Alite Blackout frames (depending on the selected version).<br>\n- Mounting hardware for secure installation.<br>\n- Electrical cables required for installation.<br>\n- Installation manual for easy setup.",
             "question_4": "How does the Alite Blackout work?",
@@ -780,7 +794,7 @@
         "faq_item_7UEnUb"
       ],
       "custom_css": [
-        ".faq-selector {padding-top: 0px; margin-bottom: -50px;}",
+        ".faq-selector {padding-top: 0px; margin-bottom: -20px;}",
         ".selector-header {display: none;}",
         ".product-selector-wrapper {display: none;}",
         ".button-divider {display: none !important;}",
@@ -921,6 +935,37 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "rich_text_9NA9EB": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_e73AcR": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Alite Blackout™ License Plate Hider – Single Kit for US Plates</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_pMAhCw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The <strong>Alite Blackout License Plate Hider – Single Kit (US version)</strong> gives drivers instant control over their plate visibility. This system uses electrochromic film to switch between clear and dark with the push of a button — no moving parts, no bulky frames. It's remote-controlled, sleek, and engineered for US-sized license plates.</p><p>This high-tech solution allows you to maintain a clean, professional vehicle appearance while also giving you the power to control your plate display. Perfect for enthusiasts who care about both performance and presentation.</p><h3><strong>Key Benefits:</strong></h3><ul><li>Stealth in seconds — activated via remote</li><li>OEM-like appearance — ultra-thin design</li><li>Reliable in real-world conditions</li><li>Ideal for show cars, private roads, and displays</li></ul><h2><strong>What Is a Blackout License Plate Cover?</strong></h2><p>A <strong>blackout license plate cover</strong> is a high-tech screen that turns black electronically. It replaces physical covers or frames with a film layer that becomes opaque instantly. Powered by your vehicle’s 12V source, it offers seamless functionality with no mechanical noise.</p><p>Unlike flip-down or shutter-style systems, this device works silently and cleanly. It’s an elegant solution for those who want advanced tech without visible gadgets or hardware clutter.</p><h3><strong>Highlights:</strong></h3><ul><li>Remote-powered black-out film</li><li>Discreet and clean look</li><li>Simple installation — no drilling or damage</li><li>Compatible with standard US plates</li></ul><h2><strong>License Plate Blackout Protection</strong></h2><p>From speed cameras to ALPR systems, modern roads are full of surveillance. This kit offers <strong>license plate blackout</strong> on demand — for use in private events, car shows, or closed-course driving.</p><p>Whether you’re entering a show, being photographed professionally, or testing performance on a private track, the ability to obscure your plate ensures privacy and focus on the vehicle — not your registration number.</p><h3><strong>Helps Reduce Exposure to:</strong></h3><ul><li>Speed enforcement and red-light cameras</li><li>Toll scanners and plate readers</li><li>Parking garage ALPRs</li><li>Smart neighborhood surveillance systems</li></ul><p>With this <strong>blackout license plate cover</strong>, you’re in control — instantly blocking your plate when needed.</p><h2><strong>Black Out License Plate Cover Kit</strong></h2><p>Everything you need is inside the <strong>black out license plate cover</strong> package for fast setup and easy use.</p><p>The kit is designed for single-plate setups, and includes everything necessary for installation on either the front or rear of your vehicle. All components are tested for durability and ease of integration into modern car systems.</p><h3><strong>What’s Included:</strong></h3><ul><li>Electrochromic cover (for one plate)</li><li>Wireless remote fob (ON/OFF)</li><li>Power cables for 12V system</li><li>Mounting hardware and tape</li><li>User guide in English</li></ul><p>Setup takes about 10–15 minutes. The system is low-profile and blends in naturally with your vehicle’s design.</p><h2><strong>License Plate Blackout Cover Benefits</strong></h2><p>This <strong>license plate blackout cover</strong> delivers smart functionality with subtle style. It’s ideal for anyone wanting tech-driven control over their plate visibility — all in a clean, frameless form.</p><p>Alite’s system is made for enthusiasts who want both beauty and brains. It’s perfect for sports cars, show builds, and modified vehicles where every detail matters.</p><h3><strong>Why Choose Alite:</strong></h3><ul><li>No-frame design with professional finish</li><li>Weatherproof, vibration-resistant, UV safe</li><li>Operates in all seasons and temperatures</li><li>Made for enthusiasts who value clean looks and control</li></ul><p>Looking for a <strong>Blackout License Plate Cover with Remote</strong> that works flawlessly and looks amazing? The <strong>Alite Blackout™ Single Kit (US version)</strong> is your go-to choice for modern plate concealment and full visual control.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_e73AcR",
+        "text_pMAhCw"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -944,6 +989,7 @@
     "background_photo_section_3JtPRH",
     "1740062737b3c50591",
     "popup_xM4VpJ",
-    "999436417145632022"
+    "999436417145632022",
+    "rich_text_9NA9EB"
   ]
 }

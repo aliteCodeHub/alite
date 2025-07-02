@@ -228,7 +228,8 @@
           ".ts-footer__social.ts-social {margin: 0px;}",
           ".ts-footer {padding: 0px 0 80px;}",
           ".new-footer-contact_us h2 {margin: 16px 0 10px;}",
-          "@media (max-width: 768px) {.new-footer-contact_us h2 {margin: 0 0 20px; }}"
+          "@media (max-width: 768px) {.new-footer-contact_us h2 {margin: 0 0 20px; }}",
+          "ul li {padding-bottom: 0px;}"
         ],
         "settings": {
           "email_subscription": false,
@@ -265,6 +266,11 @@
           "button_vertical_position": "highest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
+      },
+      "5017882195547572635": {
+        "type": "shopify://apps/sc-easy-redirects/blocks/app/be3f8dbd-5d43-46b4-ba43-2d65046054c2",
+        "disabled": false,
+        "settings": {}
       }
     }
   },

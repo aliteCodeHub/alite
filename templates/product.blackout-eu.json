@@ -72,6 +72,12 @@
           "type": "price",
           "settings": {}
         },
+        "custom_liquid_c6yjfQ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"discountp\"><span class=\"discountspan\">FREE SHIPPING</span> on order over $99</p>\n\n<style>\n.discountp {\ndisplay: inline-block;\nbackground-image: url(\"https://cdn.shopify.com/s/files/1/0761/7943/9962/files/free_ship_12.png?v=1751364774\");\nbackground-repeat: no-repeat;\nbackground-size: contain;\nfont-size: 13px;\nfont-weight: 600;\ncolor: #000;\npadding-bottom: 10px;\nwidth:312px; \nheight:50px;\ntext-align: center;\npadding-top: 7px;\nmargin: 0;\n}\n.discountspan {\nfont-weight: 800;\n}\n</style>"
+          }
+        },
         "badges_gyajXg": {
           "type": "badges",
           "disabled": true,
@@ -170,6 +176,7 @@
         "custom_liquid_Kx939g",
         "af8843b7-46ae-437f-9373-7e8295b1696a",
         "price",
+        "custom_liquid_c6yjfQ",
         "badges_gyajXg",
         "badges_TVK4pt",
         "key_features_7AXDVT",
@@ -183,7 +190,8 @@
         "98561621-2ada-4de4-8a2b-293806642c93"
       ],
       "custom_css": [
-        ".product__inventory {border: 1px solid #48d175 !important; font-size: 16px;}"
+        ".product__inventory {border: 1px solid #48d175 !important; font-size: 16px;}",
+        ".ts-badges {margin-top: 0;}"
       ],
       "settings": {
         "enable_sticky_info": false,
@@ -343,7 +351,7 @@
         "cell_t7WWB9": {
           "type": "cell",
           "settings": {
-            "image": "shopify://shop_images/Gif_1.gif",
+            "image": "shopify://shop_images/eu_install.gif",
             "title": "Easy Installation",
             "text": "Quick and easy setup with no need for complex wiring or modifications.",
             "position-x": 3,
@@ -360,7 +368,7 @@
           "type": "cell",
           "settings": {
             "icon": "shopify://shop_images/pult2.svg",
-            "image": "shopify://shop_images/Gif_3.gif",
+            "image": "shopify://shop_images/eu_remote.gif",
             "title": "Simple Activation",
             "text": "Activate or deactivate the blackout mode in a split second with a wireless remote.",
             "position-x": 1,
@@ -619,6 +627,12 @@
         "video_QaUHP6",
         "video_8WE6na",
         "video_YDhNPB"
+      ],
+      "custom_css": [
+        ".ts-video__inner {max-height: 550px; display: block; cursor: pointer;}",
+        ".ts-videos {max-height: 700px; border-bottom: 0;}",
+        ".ts-videos__container {max-width: 1240px; margin: 0 auto 0px; padding: 0 37px; position: relative;}",
+        "@media screen and (max-width: 1220px) {.ts-video__inner {max-height: 400px; display: block; cursor: pointer; } .ts-videos__title {text-align: left; } .ts-videos {max-height: 600px; border-bottom: 0; }}"
       ],
       "settings": {
         "title": "Testimonials",
@@ -884,7 +898,7 @@
         "faq_item_PQ7RUi"
       ],
       "custom_css": [
-        ".faq-selector {padding-top: 0px; margin-bottom: -50px;}",
+        ".faq-selector {padding-top: 0px; margin-bottom: -20px;}",
         ".selector-header {display: none;}",
         ".product-selector-wrapper {display: none;}",
         ".button-divider {display: none !important;}",
@@ -899,14 +913,14 @@
         "heading_pfxtfh": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "<strong>Alite Blackout™ License Plate Hider – Single Kit for EU Plates</strong>",
             "heading_size": "h1"
           }
         },
         "text_qPNEEN": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+            "text": "<p>The <strong>Alite Blackout License Plate Hider – Single Kit (EU version)</strong> offers instant, remote-controlled privacy for one EU-format license plate. Whether mounted on the front or rear, this sleek, frameless cover lets you control your plate visibility at the push of a button.</p><p>At its core is advanced electrochromic film — not a mechanical frame or cover. This high-tech screen goes from transparent to black instantly, allowing you to hide your plate silently and cleanly, without bulky parts or motorized movement.</p><h3><strong>Key Features:</strong></h3><ul><li>One-panel kit for front <em>or</em> rear plate</li><li>Remote included for instant blackout</li><li>Slim design — blends with OEM styling</li><li>Made for European plate size</li></ul><h2><strong>What Is a Blackout License Plate Cover?</strong></h2><p>A <strong>blackout license plate cover</strong> replaces physical covers and mechanical systems with a modern, button-activated film. When powered on, the transparent film becomes fully opaque, instantly obscuring the plate beneath.</p><p>Designed specifically for <strong>EU-format license plates</strong>, this kit delivers full functionality with zero compromise on appearance. No noise, no visible frames, no unnecessary hardware — just a clean, high-end finish.</p><h3><strong>Product Highlights:</strong></h3><ul><li>Powered by your vehicle’s 12V system</li><li>Compatible with nearly all European vehicles</li><li>Easy to install, no drilling required</li><li>High clarity when off, full blackout when on</li></ul><h2><strong>License Plate Blackout — Camera Protection for Legal Scenarios</strong></h2><p>Public roads across Europe are increasingly equipped with cameras: from ALPRs and speed traps to parking systems and toll booths. The <strong>license plate blackout</strong> feature allows you to temporarily obscure your plate during car shows, auto exhibitions, photoshoots, or on private property.</p><h3><strong>Use in Situations Like:</strong></h3><ul><li>Tuning festivals and trade events</li><li>Private road use and test tracks</li><li>Garage or detailing photography</li><li>Film production and marketing shoots</li></ul><h3><strong>Helps Reduce Plate Exposure To:</strong></h3><ul><li>Speed and traffic enforcement cameras</li><li>Toll road ALPR systems</li><li>Private lot surveillance</li><li>Event or exhibit setups</li></ul><p>This <strong>blackout license plate cover</strong> empowers you with subtle yet effective privacy when and where it matters.</p><h2><strong>Black Out License Plate Cover – What’s in the Box</strong></h2><p>The <strong>black out license plate cover</strong> single kit is simple, clean, and quick to install. It includes all parts necessary for adding blackout capability to one license plate — either front or rear.</p><h3><strong>In the Kit:</strong></h3><ul><li>1 Electrochromic blackout panel (EU format)</li><li>Wireless remote controller</li><li>12V-compatible wiring harness</li><li>Mounting accessories (tape, clips, connectors)</li><li>English installation manual</li></ul><p>Average installation time: 15 minutes. Designed for durability, the panel resists moisture, UV rays, road debris, and frequent car washes.</p><h2><strong>License Plate Blackout Cover — One Panel, Full Control</strong></h2><p>This <strong>license plate blackout cover</strong> gives you high-end performance in a minimal setup. Whether you prefer a cleaner front end or want rear-plate concealment for private events, this one-panel kit is ideal.</p><p>The system complements sports cars, luxury sedans, electric vehicles, and modified builds — adding tech-forward functionality without altering your exterior lines.</p><h3><strong>Why Choose Alite:</strong></h3><ul><li>Designed for EU-sized plates</li><li>Remote-activated with fast blackout response</li><li>Weather-resistant and show-ready</li><li>A perfect fit for minimalist car setups</li></ul><p>Need a <strong>Blackout License Plate Cover with Remote</strong> for a single plate? The <strong>Alite Blackout™ Single Kit (EU version)</strong> is built for reliability, style, and effortless control — every time you press the button.</p>"
           }
         }
       },
@@ -914,7 +928,6 @@
         "heading_pfxtfh",
         "text_qPNEEN"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "left",

@@ -72,6 +72,12 @@
           "type": "price",
           "settings": {}
         },
+        "custom_liquid_cK3Mpp": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"discountp\"><span class=\"discountspan\">FREE SHIPPING</span> on order over $99</p>\n\n<style>\n.discountp {\ndisplay: inline-block;\nbackground-image: url(\"https://cdn.shopify.com/s/files/1/0761/7943/9962/files/free_ship_12.png?v=1751364774\");\nbackground-repeat: no-repeat;\nbackground-size: contain;\nfont-size: 13px;\nfont-weight: 600;\ncolor: #000;\npadding-bottom: 10px;\nwidth:340px; \nheight:50px;\ntext-align: center;\npadding-top: 10px;\nmargin: 0;\n}\n.discountspan {\nfont-weight: 800;\n}\n</style>"
+          }
+        },
         "badges_3BqkxP": {
           "type": "badges",
           "settings": {
@@ -133,6 +139,7 @@
         "custom_liquid_Kx939g",
         "af8843b7-46ae-437f-9373-7e8295b1696a",
         "price",
+        "custom_liquid_cK3Mpp",
         "badges_3BqkxP",
         "variant_picker",
         "quantity_selector",
@@ -142,7 +149,8 @@
         "98561621-2ada-4de4-8a2b-293806642c93"
       ],
       "custom_css": [
-        ".product__inventory {border: 1px solid #48d175 !important; font-size: 16px;}"
+        ".product__inventory {border: 1px solid #48d175 !important; font-size: 16px;}",
+        ".ts-badges {margin-top: 0;}"
       ],
       "settings": {
         "enable_sticky_info": false,
@@ -935,6 +943,37 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "rich_text_Gh4TR3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6mwXQU": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Alite Flipper™ Folding frame for both license plates</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_TcRxbA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Take full control of your vehicle’s front and rear visibility with the <strong>Alite Flipper™ Folding Frame for Both License Plates</strong>. This cutting-edge system lets you lower both plates out of sight—no flipping, no rotating—just a smooth drop for total invisibility. Designed for those who demand precision, stealth, and tech-driven control, this is more than just a <strong>license plate flipper</strong>—it’s next-level concealment.</p><p>Whether you're attending a show, filming content, or parking in a secure location, the Alite Flipper™ ensures both plates stay visible when they should—and completely gone when they shouldn’t.</p><h2><strong>Electric Folding License Plate System with Full Remote Control</strong></h2><p>Unlike standard <strong>folding license plate</strong> systems that flip plates into view or rotate them backward, the Alite Flipper™ physically lowers the license plate beneath the bumper line, making it 100% invisible from all angles. The powerful yet silent motor is built for smooth, fast action and can be activated instantly via a four-button wireless remote.</p><p>This isn’t just a cool feature—it’s complete functional control at your fingertips.</p><h2><strong>Smart 4-Button Remote – Independent Plate Control</strong></h2><p>The included <strong>license plate flipper with remote</strong> is designed for dual-plate operation. You can control the front and rear plates separately, or drop them both at the same time. Each button on the remote is pre-programmed for intuitive use, offering full flexibility depending on the scenario.</p><p>Remote functionality includes:</p><ul><li>Lower front plate only</li><li>Lower rear plate only</li><li>Lower both plates simultaneously</li><li>Return both plates to visible position</li></ul><p>This advanced controller sets the Alite Flipper™ apart from single-action systems and lets you manage visibility with precision.</p><h2><strong>Durable, Weatherproof Design for Real-World Use</strong></h2><p>The <strong>Alite folding license plate frame</strong> is built with automotive-grade components. From high-speed driving to harsh weather conditions, the system is sealed against dust, water, and debris. Stainless steel brackets and reinforced polymer arms ensure long-lasting performance, while the low-profile design keeps the frame nearly invisible when installed.</p><p>Whether you’re driving through snow, rain, or dirt roads, the Flipper™ system stays responsive and protected.</p><h2><strong>Universal Fit for Easy Installation on Most Vehicles</strong></h2><p>Designed for wide compatibility, this <strong>dual license plate flipper</strong> fits most cars, trucks, and SUVs with minimal modification. The system includes adjustable brackets and a streamlined wiring harness that connects to standard 12V power—no complicated rewiring needed.</p><p>Detailed installation instructions and all necessary hardware are included in the box. Most users can complete the install in under an hour using basic tools.</p><h2><strong>Why Choose Alite Flipper™ Folding Frame for Both Plates?</strong></h2><ul><li>Full concealment by lowering the plate—not flipping</li><li>Independent front/rear control with smart remote</li><li>Silent motorized operation with instant response</li><li>High-quality construction built for long-term use</li><li>Weather-resistant and road-tested durability</li><li>Universal compatibility with most U.S. and EU vehicles</li></ul><p>If you’re looking for a <strong>remote license plate hider</strong> that offers total plate invisibility with reliable performance, this is the product to beat. Perfect for car enthusiasts, event presenters, and anyone who wants total control—without the noise or bulk of older systems.</p><h2><strong>Order the Alite Flipper™ Now – Stealth Redefined</strong></h2><p>Step beyond basic flippers and upgrade to the <strong>Alite Flipper™ Folding Frame for Both License Plates</strong>. With fast shipping, expert support, and proven results, it's the professional solution for plate concealment done right.</p><p>Get yours today at <a href=\"https://alite.cc/\">Alite.cc</a> and experience what real stealth control looks like.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_6mwXQU",
+        "text_TcRxbA"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -958,6 +997,7 @@
     "faq_TEtQj3",
     "1740062737b3c50591",
     "popup_xM4VpJ",
-    "165718425368793987"
+    "165718425368793987",
+    "rich_text_Gh4TR3"
   ]
 }

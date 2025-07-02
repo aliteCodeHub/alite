@@ -72,6 +72,12 @@
           "type": "price",
           "settings": {}
         },
+        "custom_liquid_rWwVaJ": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"discountp\"><span class=\"discountspan\">FREE SHIPPING</span> on order over $99</p>\n\n<style>\n.discountp {\ndisplay: inline-block;\nbackground-image: url(\"https://cdn.shopify.com/s/files/1/0761/7943/9962/files/free_ship_12.png?v=1751364774\");\nbackground-repeat: no-repeat;\nbackground-size: contain;\nfont-size: 13px;\nfont-weight: 600;\ncolor: #000;\npadding-bottom: 10px;\nwidth:312px; \nheight:50px;\ntext-align: center;\npadding-top: 7px;\nmargin: 0;\n}\n.discountspan {\nfont-weight: 800;\n}\n</style>"
+          }
+        },
         "badges_gyajXg": {
           "type": "badges",
           "disabled": true,
@@ -170,6 +176,7 @@
         "custom_liquid_Kx939g",
         "af8843b7-46ae-437f-9373-7e8295b1696a",
         "price",
+        "custom_liquid_rWwVaJ",
         "badges_gyajXg",
         "badges_QizUb6",
         "key_features_rjMzaC",
@@ -183,7 +190,8 @@
         "98561621-2ada-4de4-8a2b-293806642c93"
       ],
       "custom_css": [
-        ".product__inventory {border: 1px solid #48d175 !important; font-size: 16px;}"
+        ".product__inventory {border: 1px solid #48d175 !important; font-size: 16px;}",
+        ".ts-badges {margin-top: 0;}"
       ],
       "settings": {
         "enable_sticky_info": false,
@@ -343,7 +351,7 @@
         "cell_t7WWB9": {
           "type": "cell",
           "settings": {
-            "image": "shopify://shop_images/Gif_1.gif",
+            "image": "shopify://shop_images/eu_install.gif",
             "title": "Easy Installation",
             "text": "Quick and easy setup with no need for complex wiring or modifications.",
             "position-x": 3,
@@ -360,7 +368,7 @@
           "type": "cell",
           "settings": {
             "icon": "shopify://shop_images/pult2.svg",
-            "image": "shopify://shop_images/Gif_3.gif",
+            "image": "shopify://shop_images/eu_remote.gif",
             "title": "Simple Activation",
             "text": "Activate or deactivate the blackout mode in a split second with a wireless remote.",
             "position-x": 1,
@@ -938,7 +946,7 @@
         "faq_item_EKhNye"
       ],
       "custom_css": [
-        ".faq-selector {padding-top: 0px; margin-bottom: -50px;}",
+        ".faq-selector {padding-top: 0px; margin-bottom: -20px;}",
         ".selector-header {display: none;}",
         ".product-selector-wrapper {display: none;}",
         ".button-divider {display: none !important;}",
@@ -986,6 +994,37 @@
         "discount_text": "Get up to",
         "discount_value": "-50% OFF"
       }
+    },
+    "rich_text_FTkTgE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_tfqTLH": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Alite Blackout License Plate Hider - Front and Rear kit For EU Plates</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_7LA6e6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The <strong>Alite Blackout License Plate Hider – Front and Rear Kit (EU version)</strong> gives you total control over both your front and rear EU-format license plates. With a single press of the remote, both plates can instantly switch from visible to blacked out — silently, reliably, and without mechanical parts.</p><p>Using advanced electrochromic film technology, this dual-panel system offers a frameless, ultra-slim solution that preserves your car’s clean, OEM look while giving you full control over visibility.</p><h3><strong>Key Advantages:</strong></h3><ul><li>Simultaneous blackout of front and rear plates</li><li>One remote — instant control</li><li>Designed specifically for European plate dimensions</li><li>Minimalist appearance, maximum tech</li></ul><h2><strong>What Is a Blackout License Plate Cover?</strong></h2><p>A <strong>blackout license plate cover</strong> is a remote-controlled smart film system that replaces traditional mechanical flippers or tints. It connects to your vehicle’s 12V power and uses electrochromic film to switch between transparent and opaque states in under a second.</p><p>This <strong>EU version</strong> kit includes two plates made to fit the longer European license plate format perfectly — without overlapping frames, brackets, or screws.</p><h3><strong>Key Features:</strong></h3><ul><li>No motors, no sound — just clean switching</li><li>Perfect fit for European vehicles</li><li>Frameless, slim design with hidden wiring</li><li>Remote-controlled, no touch required</li></ul><h2><strong>License Plate Blackout — Camera Protection When You Need It</strong></h2><p>Modern cities and highways across Europe are filled with ALPR systems, traffic enforcement cameras, toll readers, and parking scanners. The <strong>license plate blackout</strong> function gives you the option to hide your plates during allowed scenarios such as exhibitions, auto shows, private drives, or photo shoots.</p><h3><strong>Common Use Cases:</strong></h3><ul><li>Indoor and outdoor car shows</li><li>Vehicle marketing and photography</li><li>Track events or test drives on private property</li><li>Stealth displays for wraps and tuning setups</li></ul><h3><strong>Helps Reduce Visibility To:</strong></h3><ul><li>Speed and red-light cameras</li><li>Highway toll readers</li><li>Garage and parking lot plate scanners</li><li>Private security ALPR systems</li></ul><p>With this <strong>blackout license plate cover</strong>, you stay in control — with discretion, style, and instant access.</p><h2><strong>Black Out License Plate Cover – Dual Plate Kit</strong></h2><p>The <strong>black out license plate cover</strong> kit includes all components required for a clean, secure, and simple installation on both front and rear EU plates.</p><h3><strong>Included in the Box:</strong></h3><ul><li>2 Electrochromic blackout panels (EU plate size)</li><li>1 Remote control with dual control mode</li><li>Cable set and wiring harness </li><li>Mounting materials </li><li>Full instructions in English</li></ul><p>Installation takes under 30 minutes and requires no drilling or custom bodywork. Panels are built to endure rain, car washes, heat, and vibrations.</p><h2><strong>License Plate Blackout Cover — Style Meets Smart Control</strong></h2><p>This <strong>license plate blackout cover</strong> gives your car a refined, tech-forward upgrade with a hidden edge. Designed for European aesthetics, it keeps your vehicle looking streamlined while providing stealth functionality when you need it.</p><p>Whether you drive a German sportscar, an Italian coupe, or a Scandinavian EV — the <strong>Alite Blackout™ Front and Rear Kit (EU version)</strong> is the premium choice for dual-plate privacy control.</p><h3><strong>Why Choose Alite:</strong></h3><ul><li>Built for EU dimensions</li><li>Dual blackout with a single remote</li><li>No visible frames, bolts, or distractions</li><li>Designed for enthusiasts, tuners, and perfectionists</li></ul><p>Looking for a <strong>Blackout License Plate Cover with Remote</strong> made for both EU plates? Choose the <strong>Alite Blackout™ Front and Rear Kit (EU version)</strong> — engineered to impress and built to perform.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tfqTLH",
+        "text_7LA6e6"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -1008,6 +1047,7 @@
     "ts_faq_cXFVAH",
     "faq_e9mLzM",
     "background_photo_section_3JtPRH",
-    "popup_xM4VpJ"
+    "popup_xM4VpJ",
+    "rich_text_FTkTgE"
   ]
 }

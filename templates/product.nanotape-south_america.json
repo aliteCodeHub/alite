@@ -72,6 +72,12 @@
           "type": "price",
           "settings": {}
         },
+        "custom_liquid_eKLNDf": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<p class=\"discountp\"><span class=\"discountspan\">FREE SHIPPING</span> on order over $99</p>\n\n<style>\n.discountp {\ndisplay: inline-block;\nbackground-image: url(\"https://cdn.shopify.com/s/files/1/0761/7943/9962/files/free_ship_12.png?v=1751364774\");\nbackground-repeat: no-repeat;\nbackground-size: contain;\nfont-size: 13px;\nfont-weight: 600;\ncolor: #000;\npadding-bottom: 10px;\nwidth:300px; \nheight:50px;\ntext-align: center;\npadding-top: 7px;\nmargin: 0;\n}\n.discountspan {\nfont-weight: 800;\n}\n</style>"
+          }
+        },
         "badges_gyajXg": {
           "type": "badges",
           "disabled": true,
@@ -92,7 +98,7 @@
             "show_min_order": false,
             "title": "Min. order 2 pcs",
             "description": "<p>We fullfill the order throught minimal order 2 pcs. Not necessarily the same</p>",
-            "custom_liquid": "<div class=\"badgeusa usa-badge\">\n        <img src=\"https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg\" class=\"icon\" alt=\"USA Flag\">\n        Adapted for USA\n    </div>\n\n        <style>\n        .badges-container {\n            display: inline-block;\nmargin-top:-10px;\nmargin-bottom:-10px;\n        }\n\n        .badgeusa {\npadding: 0 12px;\n\n            display: flex;\n            align-items: center;\n           margin-bottom: .5rem;\n            font-size: 16px;\n            font-weight: bold;\n            border-radius: 10px;\n           \n            border: 1px solid rgba(255, 0, 0, 0.5);\n         \n        }\n\n        .usa-badge {\nmargin: auto 0;\nheight: 38px;\n            background: rgba(255, 0, 0, 0.2); /* Полупрозрачный красный фон */\n            color: #000;\nmin-width: fit-content;\n        }\n\n        .icon {\n            margin-right: 6px;\n            width: 16px;\n            height: 16px;\n        }\n@media screen and (max-width: 900px) {\n  .badges-container {\n            display: inline-block;\nmargin-top:-10px;\nmargin-bottom:15px;\n        }\n}\n    </style>",
+            "custom_liquid": "<div class=\"badgeusa usa-badge\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0761/7943/9962/files/twemoji_flag-peru.svg?v=1744017179\" class=\"icon\" alt=\"Peru Flag\">\n        Adapted for Peru\n    </div>\n\n        <style>\n        .badges-container {\n            display: inline-block;\nmargin-top:-10px;\nmargin-bottom:-10px;\n        }\n\n        .badgeusa {\npadding: 0 12px;\n\n            display: flex;\n            align-items: center;\n           margin-bottom: .5rem;\n            font-size: 16px;\n            font-weight: bold;\n            border-radius: 10px;\n           \n            border: 1px solid rgba(255, 0, 0, 0.5);\n         \n        }\n\n        .usa-badge {\nmargin: auto 0;\nheight: 38px;\n            background: rgba(255, 0, 0, 0.2); /* Полупрозрачный красный фон */\n            color: #000;\nmin-width: fit-content;\n        }\n\n        .icon {\n            margin-right: 6px;\n            width: 16px;\n            height: 16px;\n        }\n@media screen and (max-width: 900px) {\n  .badges-container {\n            display: inline-block;\nmargin-top:-10px;\nmargin-bottom:15px;\n        }\n}\n    </style>",
             "custom_liquid_2": "",
             "text_style": "body",
             "inventory_threshold": 10,
@@ -170,6 +176,7 @@
         "custom_liquid_Kx939g",
         "af8843b7-46ae-437f-9373-7e8295b1696a",
         "price",
+        "custom_liquid_eKLNDf",
         "badges_gyajXg",
         "badges_TVK4pt",
         "key_features_xGRiwM",
@@ -183,7 +190,8 @@
         "98561621-2ada-4de4-8a2b-293806642c93"
       ],
       "custom_css": [
-        ".product__inventory {border: 1px solid #48d175 !important; font-size: 16px;}"
+        ".product__inventory {border: 1px solid #48d175 !important; font-size: 16px;}",
+        ".ts-badges {margin-top: 0;}"
       ],
       "settings": {
         "enable_sticky_info": false,
