@@ -11,9 +11,7 @@
   "sections": {
     "ts_breadcrumbs_mwL4EG": {
       "type": "ts-breadcrumbs",
-      "custom_css": [
-        ".ts-breadcrumbs__container {flex-wrap: nowrap;}"
-      ],
+      "custom_css": [],
       "settings": {}
     },
     "announcement_bar_kQUT6a": {
