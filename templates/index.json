@@ -192,6 +192,52 @@
         "image_description": "shopify://shop_images/nanofilm_3b476e2c-e7bf-4d65-bce8-e20f8e75e4d0.gif"
       }
     },
+    "product_dropdown_4hi7By": {
+      "type": "product-dropdown",
+      "blocks": {
+        "benefit_eCBENG": {
+          "type": "benefit",
+          "settings": {
+            "text": "Perfect Fit",
+            "image": "shopify://shop_images/Vector-2_8b70f7c4-55fa-4339-ba7b-f95752998e1a.svg"
+          }
+        },
+        "benefit_FVPjyw": {
+          "type": "benefit",
+          "settings": {
+            "text": "Frameless Mount",
+            "image": "shopify://shop_images/Vector_3afbdaa8-57a4-4234-bbeb-a4658b8763bc.svg"
+          }
+        },
+        "benefit_DiEURd": {
+          "type": "benefit",
+          "settings": {
+            "text": "Easy Replacement",
+            "image": "shopify://shop_images/Vector-1_bed6e6a3-8e38-4e42-873e-9c64b6c0b303.svg"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_eCBENG",
+        "benefit_FVPjyw",
+        "benefit_DiEURd"
+      ],
+      "name": "Product dropdown",
+      "settings": {
+        "id": "easyclick",
+        "image_first": true,
+        "title": "Alite <br>easyclick",
+        "text": "EasyClick License Plate Holder – mount and switch US plates fast, no tools or screws needed!",
+        "image": "shopify://shop_images/easyclick_trans.png",
+        "link-img": "shopify://collections/alite-easyclick-for-us",
+        "link": "shopify://collections/alite-easyclick-for-us",
+        "title_description": "Alite Easyclick",
+        "subtitle_description": "Frameless Plate holder",
+        "second-title-description": "Description",
+        "description": "Meet the EasyClick License Plate Holder – the fastest way to mount and switch between two US license plates. No tools, no screws, no hassle. Just click your plates in and out in seconds. Ideal for car shows, multi-state driving, or seasonal tags. Clean look, secure fit, zero damage.",
+        "image_description": "shopify://shop_images/easyclick_gif_main_1.gif"
+      }
+    },
     "product_dropdown_W6PFzF": {
       "type": "product-dropdown",
       "blocks": {
@@ -227,7 +273,7 @@
       ],
       "settings": {
         "id": "blackout",
-        "image_first": true,
+        "image_first": false,
         "title": "ALITE<br>BLACKOUT",
         "text": "Instantly darkens your plate – Reliable camera protection with a sleek, compact design",
         "image": "shopify://shop_images/blackout_main.png",
@@ -238,6 +284,54 @@
         "second-title-description": "Description",
         "description": "Block prying eyes and traffic cameras with this blackout plate hider. With the push of a button, your license plate becomes unreadable, protecting your privacy instantly. The sleek, compact design ensures a seamless fit, and installation is quick and easy. Whether you’re avoiding unnecessary fines or just want an added layer of discretion, this device is the perfect solution for drivers who value security and convenience.",
         "image_description": "shopify://shop_images/gif_main.gif"
+      }
+    },
+    "product_dropdown_KHTeRJ": {
+      "type": "product-dropdown",
+      "blocks": {
+        "benefit_WJJwYV": {
+          "type": "benefit",
+          "settings": {
+            "text": "Perfect Fit",
+            "image": "shopify://shop_images/Vector-2_8b70f7c4-55fa-4339-ba7b-f95752998e1a.svg"
+          }
+        },
+        "benefit_kGTKAy": {
+          "type": "benefit",
+          "settings": {
+            "text": "Frameless Mount",
+            "image": "shopify://shop_images/Vector_3afbdaa8-57a4-4234-bbeb-a4658b8763bc.svg"
+          }
+        },
+        "benefit_y93RER": {
+          "type": "benefit",
+          "settings": {
+            "text": "Easy Replacement",
+            "image": "shopify://shop_images/Vector-1_bed6e6a3-8e38-4e42-873e-9c64b6c0b303.svg"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_WJJwYV",
+        "benefit_kGTKAy",
+        "benefit_y93RER"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 1000px) {.product-information_block {flex-direction: column; }}"
+      ],
+      "settings": {
+        "id": "Nanotapes",
+        "image_first": true,
+        "title": "Alite<br>Nanotape",
+        "text": "Mount your plate with no drilling – strong nano-tapes hold securely and remove cleanly",
+        "image": "shopify://shop_images/nanotape_main_90ce5fb2-da33-424c-b613-b2743168340b.png",
+        "link-img": "shopify://collections/nanotape",
+        "link": "shopify://collections/nanotape",
+        "title_description": "Alite Nanotape",
+        "subtitle_description": "Frameless Plate Frame",
+        "second-title-description": "Description",
+        "description": "Secure your license plate without drilling holes or using screws! This innovative frame uses ultra-strong nanotape to firmly hold your plate in place while allowing easy removal without leaving marks. Designed for durability and reliability, it’s resistant to weather, vibrations, and everyday wear. Ideal for those who want a clean, hassle-free mounting solution that’s both effective and removable when needed. Safe, simple, and highly convenient.",
+        "image_description": "shopify://shop_images/nanotape.gif"
       }
     },
     "product_dropdown_jBH3gD": {
@@ -283,54 +377,6 @@
         "second-title-description": "Description",
         "description": "Need to hide your license plate instantly? This folding frame with a cable lets you retract or reveal your plate in just seconds. The sturdy mechanism ensures smooth operation every time, and the easy installation process makes it suitable for any vehicle. Whether you're parking privately or looking for an added layer of discretion, this plate cover gives you full control over your visibility. Durable, reliable, and built for convenience.",
         "image_description": "shopify://shop_images/flipper_3.gif"
-      }
-    },
-    "product_dropdown_KHTeRJ": {
-      "type": "product-dropdown",
-      "blocks": {
-        "benefit_WJJwYV": {
-          "type": "benefit",
-          "settings": {
-            "text": "Perfect Fit",
-            "image": "shopify://shop_images/Vector-2_8b70f7c4-55fa-4339-ba7b-f95752998e1a.svg"
-          }
-        },
-        "benefit_kGTKAy": {
-          "type": "benefit",
-          "settings": {
-            "text": "Frameless Mount",
-            "image": "shopify://shop_images/Vector_3afbdaa8-57a4-4234-bbeb-a4658b8763bc.svg"
-          }
-        },
-        "benefit_y93RER": {
-          "type": "benefit",
-          "settings": {
-            "text": "Easy Replacement",
-            "image": "shopify://shop_images/Vector-1_bed6e6a3-8e38-4e42-873e-9c64b6c0b303.svg"
-          }
-        }
-      },
-      "block_order": [
-        "benefit_WJJwYV",
-        "benefit_kGTKAy",
-        "benefit_y93RER"
-      ],
-      "custom_css": [
-        "@media screen and (max-width: 1000px) {.product-information_block {flex-direction: column; }}"
-      ],
-      "settings": {
-        "id": "Nanotapes",
-        "image_first": true,
-        "title": "Alite<br>Nanotape",
-        "text": "Mount your plate with no drilling – strong nano-tapes hold securely and remove cleanly",
-        "image": "shopify://shop_images/nanotape_main_90ce5fb2-da33-424c-b613-b2743168340b.png",
-        "link-img": "shopify://collections/nanotape",
-        "link": "shopify://collections/nanotape",
-        "title_description": "Alite Nanotape",
-        "subtitle_description": "Frameless Plate holder",
-        "second-title-description": "Description",
-        "description": "Secure your license plate without drilling holes or using screws! This innovative frame uses ultra-strong nanotape to firmly hold your plate in place while allowing easy removal without leaving marks. Designed for durability and reliability, it’s resistant to weather, vibrations, and everyday wear. Ideal for those who want a clean, hassle-free mounting solution that’s both effective and removable when needed. Safe, simple, and highly convenient.",
-        "image_description": "shopify://shop_images/nanotape.gif"
       }
     },
     "grid_section_86ER4P": {
@@ -664,9 +710,10 @@
     "popup_NMC9kA",
     "updated_banner_7tDrUm",
     "product_dropdown_NjUPF9",
+    "product_dropdown_4hi7By",
     "product_dropdown_W6PFzF",
-    "product_dropdown_jBH3gD",
     "product_dropdown_KHTeRJ",
+    "product_dropdown_jBH3gD",
     "grid_section_86ER4P",
     "ts_video_slider_hpPmCr",
     "174366452352af455e",
