@@ -418,6 +418,7 @@
     },
     "before_after_9PYq7n": {
       "type": "before-after",
+      "disabled": true,
       "custom_css": [
         ".before_badge {display: none;}",
         ".after_badge {display: none;}"
@@ -586,6 +587,7 @@
         "video_kgeFMR",
         "video_Cyycmi"
       ],
+      "disabled": true,
       "custom_css": [
         ".ts-video__inner {max-height: 550px; display: block; cursor: pointer;}",
         ".ts-videos {max-height: 700px; border-bottom: 0;}",
@@ -695,6 +697,7 @@
         "column_TxrA97",
         "column_JX9Nkm"
       ],
+      "disabled": true,
       "custom_css": [
         ".multicolumn-padding {padding-top: 0px !important;}"
       ],
@@ -1081,6 +1084,7 @@
         "faq_item_xkGQmx",
         "faq_item_mQiYMm"
       ],
+      "disabled": true,
       "custom_css": [
         ".faq-selector {padding-top: 20px;}",
         ".selector-header {display: none;}",
@@ -1152,6 +1156,7 @@
         "heading_baTVG9",
         "text_pk6miB"
       ],
+      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "left",
