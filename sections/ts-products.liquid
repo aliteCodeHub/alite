@@ -276,7 +276,7 @@
     {% if section.settings.products != blank %}
       <div class="ts-products">
         {% for product in section.settings.products %}
-          <div class="ts-product" data-id="{{ product.first_available_variant.id }}">
+          <div style="height: 400px;" class="ts-product" data-id="{{ product.first_available_variant.id }}">
             <a href="{{ product.url }}" class="ts-product__media" style="min-height: {{160 | divided_by: product.featured_image.aspect_ratio }}px">
               {{ product.featured_image | image_url: width: 320 | image_tag }}
             </a>
