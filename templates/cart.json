@@ -64,7 +64,7 @@
         ".ts-products__title {font-size: 24px; font-weight: 700;}",
         ".ts-products-list .ts-container {padding: 0;}",
         ".ts-products-list {margin: 0 0 50px;}",
-        "@media screen and (max-width: 750px) {.ts-products {overflow: scroll; }.ts-product {overflow: revert; } }"
+        "@media screen and (max-width: 750px) {.ts-products {overflow: scroll; } .ts-product {overflow: revert; } .ts-product__media {width: 250px; }}"
       ],
       "settings": {
         "title": "You may also like",
