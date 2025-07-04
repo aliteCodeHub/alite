@@ -270,7 +270,7 @@
           "type": "cell",
           "settings": {
             "icon": "shopify://shop_images/shield_2_4.svg",
-            "image": "shopify://shop_images/us_tapes_gif_2.gif",
+            "image": "shopify://shop_images/easyclick_gif1.gif",
             "title": "Full-Plate Fit",
             "text": "Covers the entire plate for maximum stability and hold.",
             "position-x": 2,
@@ -351,7 +351,7 @@
         "cell_t7WWB9": {
           "type": "cell",
           "settings": {
-            "image": "shopify://shop_images/Nanotape_GIF_2.gif",
+            "image": "shopify://shop_images/easyclick_gif2.gif",
             "title": "No Drilling Required",
             "text": "Install in minutes without tools or harming your car.",
             "position-x": 3,
@@ -368,7 +368,7 @@
           "type": "cell",
           "settings": {
             "icon": "shopify://shop_images/shield_2_4.svg",
-            "image": "shopify://shop_images/us_tapes_gif_1.gif",
+            "image": "shopify://shop_images/easyclick_gif3.gif",
             "title": "Quick Plate Swaps",
             "text": "Remove and reattach plates effortlessly whenever needed.",
             "position-x": 1,
