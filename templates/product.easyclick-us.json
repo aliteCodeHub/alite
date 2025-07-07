@@ -271,8 +271,8 @@
           "settings": {
             "icon": "shopify://shop_images/shield_2_4.svg",
             "image": "shopify://shop_images/easyclick_gif1.gif",
-            "title": "Full-Plate Fit",
-            "text": "Covers the entire plate for maximum stability and hold.",
+            "title": "Flexible & Impact-Resistant",
+            "text": "Adapts to curves, resists pressure, and holds firm on any terrain.",
             "position-x": 2,
             "width": 2,
             "position-y": 1,
@@ -352,8 +352,8 @@
           "type": "cell",
           "settings": {
             "image": "shopify://shop_images/easyclick_gif2.gif",
-            "title": "No Drilling Required",
-            "text": "Install in minutes without tools or harming your car.",
+            "title": "Bulky Frame? No Thanks.",
+            "text": "Ditch oversized plastic frames. EasyClick™ keeps your plate clean, sleek, and distraction-free.",
             "position-x": 3,
             "width": 1,
             "position-y": 3,
@@ -369,8 +369,8 @@
           "settings": {
             "icon": "shopify://shop_images/shield_2_4.svg",
             "image": "shopify://shop_images/easyclick_gif3.gif",
-            "title": "Quick Plate Swaps",
-            "text": "Remove and reattach plates effortlessly whenever needed.",
+            "title": "Simple 2-Screw Install",
+            "text": "Mounts in minutes using factory holes — no tools, no hassle.",
             "position-x": 1,
             "width": 2,
             "position-y": 4,
