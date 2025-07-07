@@ -1084,7 +1084,6 @@
         "faq_item_qe9WxA",
         "faq_item_Qfj6qB"
       ],
-      "disabled": true,
       "custom_css": [
         ".faq-selector {padding-top: 20px;}",
         ".selector-header {display: none;}",
