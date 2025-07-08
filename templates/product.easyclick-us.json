@@ -1081,6 +1081,7 @@
       ],
       "custom_css": [
         ".product-selector-wrapper {display: none;}",
+        ".selector-header {display: none;}",
         ".button-divider {display: none !important;}",
         ".faq-item-heading h3 {font-size: 32px; font-family: \"ShopifySans\" !important;}"
       ],
