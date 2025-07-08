@@ -1080,9 +1080,8 @@
         "faq_item_Qfj6qB"
       ],
       "custom_css": [
-        ".faq-selector {padding-top: 20px;}",
-        ".selector-header {display: none;}",
         ".product-selector-wrapper {display: none;}",
+        ".button-divider {display: none !important;}",
         ".faq-item-heading h3 {font-size: 32px; font-family: \"ShopifySans\" !important;}"
       ],
       "name": "FAQ by Product",
