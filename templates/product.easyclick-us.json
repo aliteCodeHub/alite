@@ -824,7 +824,6 @@
       "blocks": {
         "product_tab_kbb7D4": {
           "type": "product_tab",
-          "disabled": true,
           "settings": {
             "product_handle": "1",
             "title": "NANOFILM",
@@ -835,7 +834,6 @@
         },
         "product_tab_7RYEg8": {
           "type": "product_tab",
-          "disabled": true,
           "settings": {
             "product_handle": "2",
             "title": "MATERIAL",
@@ -846,7 +844,6 @@
         },
         "product_tab_ckFcGX": {
           "type": "product_tab",
-          "disabled": true,
           "settings": {
             "product_handle": "3",
             "title": "BLACKOUT",
@@ -857,7 +854,6 @@
         },
         "product_tab_8QUkjN": {
           "type": "product_tab",
-          "disabled": true,
           "settings": {
             "product_handle": "4",
             "title": "FLIPPER+",
@@ -868,7 +864,6 @@
         },
         "product_tab_9PMBnC": {
           "type": "product_tab",
-          "disabled": true,
           "settings": {
             "product_handle": "5",
             "title": "NANOTAPES",
