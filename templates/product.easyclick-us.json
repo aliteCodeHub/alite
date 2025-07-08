@@ -1082,7 +1082,7 @@
       "custom_css": [
         ".faq-selector {padding-top: 20px;}",
         ".selector-header {display: none;}",
-        ".button-divider {display: none !important;}",
+        ".product-selector-wrapper {display: none;}",
         ".faq-item-heading h3 {font-size: 32px; font-family: \"ShopifySans\" !important;}"
       ],
       "name": "FAQ by Product",
