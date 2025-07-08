@@ -11,6 +11,7 @@
   "sections": {
     "ts_breadcrumbs_wnGETP": {
       "type": "ts-breadcrumbs",
+      "custom_css": [],
       "settings": {}
     },
     "rich_text_XTbAty": {
@@ -129,6 +130,7 @@
         "video_ijriFH",
         "video_RiTQ9Y"
       ],
+      "disabled": true,
       "custom_css": [
         ".ts-video__inner {max-height: 550px; display: block; cursor: pointer;}",
         ".ts-videos {max-height: 700px; border-bottom: 0;}",
@@ -552,8 +554,8 @@
     "rich_text_XTbAty",
     "product-grid",
     "ts_video_slider_3QLKih",
-    "trustpilot_reviews_cm9mFL",
     "also_like_TLfq6X",
+    "trustpilot_reviews_cm9mFL",
     "faq_WMLDkz",
     "banner",
     "ts_sticky_col_JNrzpw",
