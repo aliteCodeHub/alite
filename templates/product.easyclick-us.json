@@ -418,16 +418,15 @@
     },
     "before_after_9PYq7n": {
       "type": "before-after",
-      "disabled": true,
       "custom_css": [
         ".before_badge {display: none;}",
         ".after_badge {display: none;}"
       ],
       "settings": {
-        "bf_image": "shopify://shop_images/america_before_web.png",
-        "af_image": "shopify://shop_images/america_after_web.png",
-        "bf_image_mobile": "shopify://shop_images/america_before_mob.png",
-        "af_image_mobile": "shopify://shop_images/america_after_mob.png",
+        "bf_image": "shopify://shop_images/easyclick_america_before_web.png",
+        "af_image": "shopify://shop_images/easyclick_america_after_web.png",
+        "bf_image_mobile": "shopify://shop_images/easyclick_america_before_mob.png",
+        "af_image_mobile": "shopify://shop_images/easyclick_america_after_mob.png",
         "show_badge": true,
         "grayscale_before": false,
         "ba_heading": "<p>Before & After</p>"
