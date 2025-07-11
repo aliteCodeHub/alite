@@ -60,7 +60,7 @@
         "products_per_page": 48,
         "columns_desktop": 6,
         "custom_cards": true,
-        "custom_param_height": "Size",
+        "custom_param_height": "Plate Size",
         "custom_param_suitable_for": "Suitable for",
         "custom_param_color": "Color",
         "param_color": "Black",
@@ -144,6 +144,22 @@
         "description": ""
       }
     },
+    "also_like_TLfq6X": {
+      "type": "also-like",
+      "custom_css": [],
+      "name": "Also like",
+      "settings": {
+        "title": "You may also like",
+        "products": [
+          "nanotape-license-plate-frame-for-1-license-plate-us-version",
+          "nanotape-license-plate-frame-for-1-license-plate-eu-version",
+          "blackout-license-plate-hider-for-usa-single",
+          "blackout-license-plate-hider-for-europe-single",
+          "folding-frame-on-license-plate-on-a-cable"
+        ],
+        "custom_id": ""
+      }
+    },
     "trustpilot_reviews_cm9mFL": {
       "type": "trustpilot-reviews",
       "blocks": {
@@ -214,22 +230,6 @@
         ".reviews-section {padding: 0; margin-bottom: 20px;}"
       ],
       "settings": {}
-    },
-    "also_like_TLfq6X": {
-      "type": "also-like",
-      "custom_css": [],
-      "name": "Also like",
-      "settings": {
-        "title": "You may also like",
-        "products": [
-          "nanotape-license-plate-frame-for-1-license-plate-us-version",
-          "nanotape-license-plate-frame-for-1-license-plate-eu-version",
-          "blackout-license-plate-hider-for-usa-single",
-          "blackout-license-plate-hider-for-europe-single",
-          "folding-frame-on-license-plate-on-a-cable"
-        ],
-        "custom_id": ""
-      }
     },
     "faq_WMLDkz": {
       "type": "faq",
