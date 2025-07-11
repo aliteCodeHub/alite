@@ -1091,6 +1091,18 @@
       "name": "FAQ by Product",
       "settings": {}
     },
+    "background_photo_section_bwm63x": {
+      "type": "background-photo-section",
+      "name": "Background image-section",
+      "settings": {
+        "image": "shopify://shop_images/image_313.png",
+        "title": "Looking for similaroption?",
+        "subtitle": "New generation of plate holders",
+        "text": "Sturdy plastic provides a strong hold and silicone pads reduce vibration",
+        "btn_text": "Explore now",
+        "btn_url": "https://alite.cc/products/easyclick-license-plate-holder-for-us-2-plates"
+      }
+    },
     "background_photo_section_3JtPRH": {
       "type": "background-photo-section",
       "disabled": true,
@@ -1181,6 +1193,7 @@
     "trustpilot_reviews_fpYdHw",
     "also_like_XWLwk6",
     "faq_crXear",
+    "background_photo_section_bwm63x",
     "background_photo_section_3JtPRH",
     "popup_xM4VpJ",
     "rich_text_GXwYxa"
