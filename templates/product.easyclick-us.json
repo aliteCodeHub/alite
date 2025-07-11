@@ -1434,6 +1434,18 @@
         "padding_top": 32,
         "padding_bottom": 0
       }
+    },
+    "background_photo_section_dCmGe7": {
+      "type": "background-photo-section",
+      "name": "Background image-section",
+      "settings": {
+        "image": "shopify://shop_images/1_3ff5bbf4-c605-4603-a1be-7b4163c4b13a.png",
+        "title": "Looking for similar option?",
+        "subtitle": "New generation of plate holders",
+        "text": "Velcro based system provides a strong hold and reduce vibration",
+        "btn_text": "Explore now",
+        "btn_url": "https://alite.cc/products/nanotape-license-plate-frame-for-1-license-plate-us-version"
+      }
     }
   },
   "order": [
@@ -1457,6 +1469,7 @@
     "faq_crXear",
     "background_photo_section_3JtPRH",
     "popup_xM4VpJ",
-    "rich_text_GXwYxa"
+    "rich_text_GXwYxa",
+    "background_photo_section_dCmGe7"
   ]
 }
