@@ -1093,10 +1093,13 @@
     },
     "background_photo_section_bwm63x": {
       "type": "background-photo-section",
+      "custom_css": [
+        ".background-image_section img {/* height: 50%; */}"
+      ],
       "name": "Background image-section",
       "settings": {
-        "image": "shopify://shop_images/image_313.png",
-        "title": "Looking for similaroption?",
+        "image": "shopify://shop_images/Rectangle_559-removebg-preview.png",
+        "title": "Looking for similar option?",
         "subtitle": "New generation of plate holders",
         "text": "Sturdy plastic provides a strong hold and silicone pads reduce vibration",
         "btn_text": "Explore now",
