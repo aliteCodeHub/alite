@@ -1,18 +1,23 @@
 <style>
   .background-image_section {
     margin-top: 30px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0;
+    gap: 70px;
   }
+    .background-image_section a {
+    width: 50%;
+    }
   .background-image_section img {
     width: 100%;
     display: block;
   }
   .background-image-section-content {
-    display: flex;
-    justify-content: flex-end;
     padding: 100px 0;
     line-height: 1;
+    width: 450px;
+    margin-left: 60px;
   }
   .background-image_section_subtitle {
     margin-bottom: 16px;
@@ -71,10 +76,17 @@
   @media screen and (max-width: 990px) {
     .background-image_section {
       margin-top: 30px;
+      margin-left: 0;
+    }
+    .background-image_section a {
+      width: 100%;
     }
     .background-image-section-content {
       flex-direction: column;
       padding: 0;
+      width: 300px;
+      margin-left: 0;
+      margin: auto;
     }
     .background-image_section img {
       margin-bottom: 32px;
@@ -93,6 +105,7 @@
       max-width: 300px;
       padding: 0 15px;
       margin: 0 auto 100px;
+      width: 400px;
     }
     .background-image_section_button:link,
     .background-image_section_button:visited {
@@ -102,8 +115,8 @@
   }
 </style>
 <div class="background-image_section">
-  <img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.title }}">
-  <div class="background-image-section-content page-width">
+  <a href="{{ section.settings.btn_url }}"><img src="{{ section.settings.image | image_url }}" alt="{{ section.settings.title }}"></a>
+  <div class="background-image-section-content">
     <div class="background-image_section-block_content">
       <div class="background-image_section_subtitle">
         {% render "stacks-icon" %}<span>{{ section.settings.subtitle }}</span>

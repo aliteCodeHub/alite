@@ -18,8 +18,9 @@
 
   .ts-banner__title {
     color: #FFF;
+    display: block;
     font-family: 'Grtsk' !important;
-    font-size: 80px;
+    font-size: 3em;
     font-style: normal;
     font-weight: 700;
     line-height: 1;
@@ -220,7 +221,7 @@
 <div class="ts-banner">
   <div class="ts-banner__container">
     {% if section.settings.title != blank %}
-      <h2 class="ts-banner__title">
+      <h1 class="ts-banner__title">
         {{ section.settings.title }}
         {% if section.settings.enable_light %}
           <span class="ts-lightning">
@@ -229,7 +230,7 @@
             <img src="{{ "high-voltage.png" | asset_url }}" width="80">
           </span>
         {% endif %}
-      </h2>
+      </h1>
     {% endif %}
 
     
