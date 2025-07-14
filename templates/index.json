@@ -708,7 +708,9 @@
         "heading_xFVebe",
         "text_nqTVc9"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".rte h2 a {font-size: 24px;}"
+      ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
