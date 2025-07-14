@@ -201,7 +201,7 @@
         "alt_color_icon_svg": "<svg width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\" shape-rendering=\"geometricPrecision\">\n<rect x=\"1\" y=\"1\" width=\"22\" height=\"22\" rx=\"7\" fill=\"url(#paint0_linear_6451_470)\" stroke=\"#EDEDED\" stroke-width=\"2\"></rect>\n<rect x=\"0.25\" y=\"0.25\" width=\"23.5\" height=\"23.5\" rx=\"7.75\" stroke=\"#65666A\" stroke-width=\"0.5\"></rect>\n<defs>\n<lineargradient id=\"paint0_linear_6451_470\" x1=\"12\" y1=\"0\" x2=\"12\" y2=\"24\" gradientunits=\"userSpaceOnUse\">\n<stop></stop>\n<stop offset=\"0.37\" stop-color=\"#282828\" stop-opacity=\"0.74\"></stop>\n<stop offset=\"1\"></stop>\n</lineargradient>\n</defs>\n</svg>",
         "alt_size_icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<g clip-path=\"url(#clip0_40000276_79)\">\n<path d=\"M13.875 15.4277V21.1875C13.875 22.223 13.0355 23.0625 12 23.0625H2.8125C1.77698 23.0625 0.9375 22.223 0.9375 21.1875V12C0.9375 10.9645 1.77698 10.125 2.8125 10.125H8.57227\" stroke=\"black\" stroke-width=\"1.875\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M6.375 0.9375H3.75C2.1967 0.9375 0.9375 2.1967 0.9375 3.75V6.375\" stroke=\"black\" stroke-width=\"1.875\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M10.125 0.9375H13.875\" stroke=\"black\" stroke-width=\"1.875\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M17.625 0.9375H20.25C21.8033 0.9375 23.0625 2.1967 23.0625 3.75V6.375\" stroke=\"black\" stroke-width=\"1.875\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M23.0625 17.625V20.25C23.0625 21.8033 21.8033 23.0625 20.25 23.0625H17.625\" stroke=\"black\" stroke-width=\"1.875\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M23.0625 10.125V13.875\" stroke=\"black\" stroke-width=\"1.875\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M6.92383 17.0758L18.763 5.23669\" stroke=\"black\" stroke-width=\"1.875\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M6.375 14.8125V17.625H9.1875\" stroke=\"black\" stroke-width=\"1.875\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n<path d=\"M16.5 4.6875H19.3125V7.5\" stroke=\"black\" stroke-width=\"1.875\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_40000276_79\">\n<rect width=\"24\" height=\"24\" fill=\"white\"></rect>\n</clippath>\n</defs>\n</svg>",
         "alt_lifespan_icon_svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\" fill=\"none\">\n<g clip-path=\"url(#clip0_40000276_106)\">\n<path d=\"M15.999 15.5C15.811 15.5 15.62 15.447 15.451 15.336L11.451 12.708C11.17 12.522 11 12.209 11 11.872V7C11 6.447 11.447 6 12 6C12.553 6 13 6.447 13 7V11.333L16.549 13.664C17.011 13.968 17.139 14.588 16.836 15.049C16.644 15.342 16.324 15.5 15.999 15.5ZM12.714 21.975C12.478 21.992 12.24 22 12 22C6.486 22 2 17.514 2 12C2 6.486 6.486 2 12 2C15.151 2 18.112 3.512 19.988 6H17C16.447 6 16 6.447 16 7C16 7.553 16.447 8 17 8H21C22.103 8 23 7.103 23 6V2C23 1.447 22.553 1 22 1C21.447 1 21 1.447 21 2V4.104C18.743 1.543 15.473 0 12 0C5.383 0 0 5.383 0 12C0 18.617 5.383 24 12 24C12.288 24 12.573 23.989 12.856 23.969C13.407 23.93 13.822 23.451 13.782 22.901C13.743 22.351 13.27 21.926 12.714 21.975ZM23 11C22.447 11 22 11.447 22 12C22 12.455 21.969 12.913 21.908 13.36C21.834 13.908 22.218 14.412 22.764 14.486C22.81 14.492 22.855 14.495 22.9 14.495C23.393 14.495 23.822 14.131 23.89 13.63C23.962 13.094 23.999 12.545 23.999 12C23.999 11.447 23.553 11 23 11ZM22.137 16.396C21.653 16.128 21.044 16.308 20.78 16.792C20.563 17.188 20.316 17.574 20.045 17.94C19.717 18.384 19.812 19.01 20.255 19.339C20.435 19.471 20.643 19.534 20.849 19.534C21.156 19.534 21.458 19.393 21.655 19.129C21.978 18.69 22.275 18.227 22.535 17.752C22.801 17.268 22.623 16.66 22.139 16.395L22.137 16.396ZM17.406 20.416C17.023 20.662 16.623 20.883 16.215 21.072C15.714 21.305 15.496 21.899 15.729 22.4C15.899 22.765 16.259 22.979 16.637 22.979C16.778 22.979 16.921 22.95 17.057 22.886C17.548 22.657 18.03 22.393 18.489 22.097C18.954 21.798 19.088 21.18 18.789 20.715C18.49 20.252 17.871 20.118 17.407 20.415L17.406 20.416Z\" fill=\"black\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_40000276_106\">\n<rect width=\"24\" height=\"24\" fill=\"white\"></rect>\n</clippath>\n</defs>\n</svg>",
-        "custom_param_height": "Material Size",
+        "custom_param_height": "Plate Size",
         "custom_param_lifespan": "Lifespan",
         "param_suitable_title": "Suitable for",
         "param_color_title": "Color",
@@ -418,16 +418,15 @@
     },
     "before_after_9PYq7n": {
       "type": "before-after",
-      "disabled": true,
       "custom_css": [
         ".before_badge {display: none;}",
         ".after_badge {display: none;}"
       ],
       "settings": {
-        "bf_image": "shopify://shop_images/america_before_web.png",
-        "af_image": "shopify://shop_images/america_after_web.png",
-        "bf_image_mobile": "shopify://shop_images/america_before_mob.png",
-        "af_image_mobile": "shopify://shop_images/america_after_mob.png",
+        "bf_image": "shopify://shop_images/easyclick_america_before_web.png",
+        "af_image": "shopify://shop_images/easyclick_america_after_web.png",
+        "bf_image_mobile": "shopify://shop_images/easyclick_america_before_mob.png",
+        "af_image_mobile": "shopify://shop_images/easyclick_america_after_mob.png",
         "show_badge": true,
         "grayscale_before": false,
         "ba_heading": "<p>Before & After</p>"
@@ -1435,6 +1434,18 @@
         "padding_top": 32,
         "padding_bottom": 0
       }
+    },
+    "background_photo_section_dCmGe7": {
+      "type": "background-photo-section",
+      "name": "Background image-section",
+      "settings": {
+        "image": "shopify://shop_images/1_3ff5bbf4-c605-4603-a1be-7b4163c4b13a.png",
+        "title": "Looking for similar option?",
+        "subtitle": "New generation of plate holders",
+        "text": "Velcro based system provides a strong hold and reduce vibration",
+        "btn_text": "Explore now",
+        "btn_url": "https://alite.cc/products/nanotape-license-plate-frame-for-1-license-plate-us-version"
+      }
     }
   },
   "order": [
@@ -1458,6 +1469,7 @@
     "faq_crXear",
     "background_photo_section_3JtPRH",
     "popup_xM4VpJ",
-    "rich_text_GXwYxa"
+    "rich_text_GXwYxa",
+    "background_photo_section_dCmGe7"
   ]
 }

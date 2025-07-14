@@ -17,6 +17,16 @@
         "padding_bottom": 28
       }
     },
+    "custom_liquid_VNxzhe": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<h1><center><strong>INSTALLATION MANUALS</center></strong></h1>\n<style>\nh1 {\nletter-spacing: -0.05em;\nfont-family: Grtsk !important;\n}\n</style>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "rich_text_6WxyMW": {
       "type": "rich-text",
       "blocks": {
@@ -31,6 +41,7 @@
       "block_order": [
         "heading_fNE33i"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {font-family: Grtsk !important; letter-spacing: -0.05em;}",
         ".rich-text {padding-bottom: 30px;}"
@@ -120,6 +131,7 @@
   },
   "order": [
     "main",
+    "custom_liquid_VNxzhe",
     "rich_text_6WxyMW",
     "manuals_6aQeXX"
   ]
