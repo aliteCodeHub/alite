@@ -13,16 +13,17 @@
     }
   </script>
 {% endif %}
+{% if template.name != 'product' and template.name != 'article' %}
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Alite LTD",
-  "url": "https://alite.cc",
-  "logo": "https://cdn.shopify.com/s/files/1/0761/7943/9962/files/logo.svg?v=1735136041",
-  "description": "Alite LTD is a pioneer in license plate protection. We offer cutting-edge solutions like Nanofilm Ecoslick, Nanotapes, Blackout, and Flipper devices to help protect your privacy and defend against speed and surveillance cameras. Our products are legal, effective, and trusted worldwide.",
-  "email": "hello@alite.cc",
-  "telephone": "+1 (585) 672-9988",
+  "name": "{{ shop.name | escape }}",
+  "url": "{{ shop.url }}",
+  "logo": "{{ shop.logo | img_url: 'master' | prepend: shop.url }}",
+  "description": "{{ shop.description | escape }}",
+  "email": "{{ shop.email }}",
+  "telephone": "{{ shop.phone }}",
   "address": {
     "@type": "PostalAddress",
     "addressCountry": "UK"
@@ -41,80 +42,31 @@
     "VISA"
   ],
   "availableLanguage": [
-    "English",
-    "Portuguese",
-    "Italian",
-    "Dutch",
-    "Spanish",
-    "German",
-    "Russian",
-    "Estonian",
-    "Irish",
-    "Greek",
-    "Bulgarian",
-    "French",
-    "Bosnian",
-    "Czech",
-    "Hindi",
-    "Croatian"
+    "English", "Portuguese", "Italian", "Dutch", "Spanish",
+    "German", "Russian", "Estonian", "Irish", "Greek",
+    "Bulgarian", "French", "Bosnian", "Czech", "Hindi", "Croatian"
   ],
   "areaServed": "Worldwide",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
     "name": "License Plate Protection Solutions",
     "itemListElement": [
+      {% assign products = collections['frontpage'].products %}
+      {% for product in products %}
       {
         "@type": "Product",
-        "name": "Nanofilm Ecoslick",
-        "description": "Anti-camera nanofilm for license plates that protects from surveillance and speed cameras while remaining invisible to the naked eye.",
-        "url": "https://alite.cc/pages/nanofilm",
-        "image": "https://cdn.shopify.com/s/files/1/0761/7943/9962/files/main_nanofilm_9e79da1c-1764-4281-a5c8-977b3a6b3a8a.png?v=1743664542",
+        "name": "{{ product.title | escape }}",
+        "description": "{{ product.description | strip_html | truncate: 200 | escape }}",
+        "url": "{{ shop.url }}{{ product.url }}",
+        "image": "{{ product.featured_image | img_url: 'master' | prepend: shop.url }}",
         "offers": {
           "@type": "Offer",
-          "priceCurrency": "USD",
-          "price": "16.90",
-          "availability": "http://schema.org/InStock"
+          "priceCurrency": "{{ shop.currency }}",
+          "price": "{{ product.price | divided_by: 100.0 }}",
+          "availability": "http://schema.org/{% if product.available %}InStock{% else %}OutOfStock{% endif %}"
         }
-      },
-      {
-        "@type": "Product",
-        "name": "Alite Nanotapes",
-        "description": "Advanced nanotape for secure, weatherproof license plate mounting with ultra-thin profile and high durability.",
-        "url": "https://alite.cc/collections/alite-nanotapes",
-        "image": "https://cdn.shopify.com/s/files/1/0761/7943/9962/files/nanotape_main.png?v=1744109552",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "price": "19.90",
-          "availability": "http://schema.org/InStock"
-        }
-      },
-      {
-        "@type": "Product",
-        "name": "Alite Blackout",
-        "description": "Alite Blackout License Plate Hider: Conceal your plate to protect privacy and avoid camera detection.",
-        "url": "https://alite.cc/collections/alite-blackout-license-plate-hiders",
-        "image": "https://cdn.shopify.com/s/files/1/0761/7943/9962/files/blackout_main.png?v=1744109552",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "price": "179.90",
-          "availability": "http://schema.org/InStock"
-        }
-      },
-      {
-        "@type": "Product",
-        "name": "Flipper",
-        "description": "Electronic license plate flipper device for temporary concealment. Ideal for shows and exhibitions. Not for public road use.",
-        "url": "https://alite.cc/collections/folding-frames",
-        "image": "https://cdn.shopify.com/s/files/1/0761/7943/9962/files/flipper_main.png?v=1744109552",
-        "offers": {
-          "@type": "Offer",
-          "priceCurrency": "USD",
-          "price": "349.90",
-          "availability": "http://schema.org/InStock"
-        }
-      }
+      }{% if forloop.last == false %},{% endif %}
+      {% endfor %}
     ]
   },
   "shippingDetails": {
@@ -135,41 +87,20 @@
   "review": [
     {
       "@type": "Review",
-      "author": {
-        "@type": "Person",
-        "name": "Alex M."
-      },
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5"
-      },
+      "author": { "@type": "Person", "name": "Alex M." },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
       "reviewBody": "Nanofilm Ecoslick really works! I haven’t had any problems with speed cameras since using it. Totally recommend it."
     },
     {
       "@type": "Review",
-      "author": {
-        "@type": "Person",
-        "name": "Sarah D."
-      },
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "4.8",
-        "bestRating": "5"
-      },
+      "author": { "@type": "Person", "name": "Sarah D." },
+      "reviewRating": { "@type": "Rating", "ratingValue": "4.8", "bestRating": "5" },
       "reviewBody": "Fast delivery and great customer support. The blackout are top notch and easy to apply."
     },
     {
       "@type": "Review",
-      "author": {
-        "@type": "Person",
-        "name": "Jamal K."
-      },
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5"
-      },
+      "author": { "@type": "Person", "name": "Jamal K." },
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" },
       "reviewBody": "Flipper is fun to use at exhibitions and works smoothly. A cool addition to my show car!"
     }
   ],
@@ -180,6 +111,8 @@
   }
 }
 </script>
+    {% endif %}
+
  
     <!-- RedTrack integration-->
 
