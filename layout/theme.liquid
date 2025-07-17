@@ -13,7 +13,7 @@
     }
   </script>
 {% endif %}
-{% if template.name != 'product' and template.name != 'article' %}
+{% comment %} {% if template.name != 'product' and template.name != 'article' %} {% endcomment %}
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -111,7 +111,7 @@
   }
 }
 </script>
-    {% endif %}
+    {% comment %} {% endif %} {% endcomment %}
 
  
     <!-- RedTrack integration-->
