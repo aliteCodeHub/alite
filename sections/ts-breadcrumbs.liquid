@@ -1,15 +1,7 @@
 <style>
-<<<<<<< HEAD
   .ts-breadcrumbs__container {
     flex-wrap: nowrap;
 }
-=======
-.ts-breadcrumbs__container {
-  .ts-breadcrumbs__container {
-    flex-wrap: nowrap;
-}
-}
->>>>>>> 9258046e3983cdae67e45c682e664d2ab500f762
 </style>
 <nav class="ts-breadcrumbs" aria-label="breadcrumb">
   <ol class="ts-breadcrumbs__container">
@@ -41,7 +33,7 @@
     {% if template.name == "product" %}
       {% if template == 'product.product-new' or template == 'collection.american-states' or template == 'collection.promo' or template == 'collection.canada-cities' or template == 'collection.australia-cities' or template == 'collection.promo-materials' %}
         <li>
-          <a href="https://alite.cc/pages/antiradar-stickers-for-license-plate">
+          <a href="/pages/antiradar-stickers-for-license-plate">
             Antiradar stickers
           </a>
           <span class="ts-breadcrumbs__caret">
@@ -187,9 +179,11 @@
     {% elsif template.name == "collection" %}
       <li>
         {% if template == 'product.product-new' or template == 'collection.american-states' or template == 'collection.promo' or template == 'collection.canada-cities' or template == 'collection.australia-cities' or template == 'collection.promo-materials' %}
-          <a href="https://alite.cc/pages/antiradar-stickers-for-license-plate">
-            Antiradar stickers
-          </a>
+        {% assign page = pages['antiradar-stickers-for-license-plate'] %}
+
+        {% if page %}
+          <a href="{{ page.url }}">{{ page.title }}</a>
+        {% endif %}
         {% endif %}
         {% unless collection.title == "USA Nanofilm" or collection.title == "Australia Nanofilm" or collection.title == "Canada Nanofilm" or template == "collection.blackout" or template == "collection.folding-frame" or template == "collection.nanotapes" %}
           <span class="ts-breadcrumbs__caret">

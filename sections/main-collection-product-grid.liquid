@@ -913,8 +913,8 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       <div class="new-progress-bar">
       <div class="first-off">
       <div class="progress-bar-text">
-      <p>-10% OFF</p>
-      <p>for 4+ stickers</p>
+      <p>{{ 'general.cart.sale1' | t }}</p>
+      <p>{{ 'general.cart.sale1_text' | t }}</p>
       </div>
       <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="12.5" cy="12" r="12" fill="#E8E8E8"/>
@@ -927,8 +927,8 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
       <div class="second-off">
       <div class="progress-bar-text">
-      <p>-20% OFF</p>
-      <p>for 6+ stickers</p>
+      <p>{{ 'general.cart.sale2' | t }}</p>
+      <p>{{ 'general.cart.sale2_text' | t }}</p>
       </div>
       <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="12.5" cy="12" r="12" fill="#E8E8E8"/>
@@ -941,8 +941,8 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
       <div class="third-off">
       <div class="progress-bar-text">
-      <p>-30% OFF</p>
-      <p>for 10+ stickers</p>
+      <p>{{ 'general.cart.sale3' | t }}</p>
+      <p>{{ 'general.cart.sale3_text' | t }}</p>
       </div>
       <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="12.5" cy="12" r="12" fill="#E8E8E8"/>
@@ -1370,8 +1370,8 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
       <div class="new-progress-bar">
       <div class="first-off-mob">
       <div class="progress-bar-text">
-      <p>-10% OFF</p>
-      <p>for 4+ stickers</p>
+      <p>{{ 'general.cart.sale1' | t }}</p>
+      <p>{{ 'general.cart.sale1_text' | t }}</p>
       </div>
       <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="12.5" cy="12" r="12" fill="#E8E8E8"/>
@@ -1384,8 +1384,8 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
       <div class="second-off-mob">
       <div class="progress-bar-text">
-      <p>-20% OFF</p>
-      <p>for 6+ stickers</p>
+      <p>{{ 'general.cart.sale2' | t }}</p>
+      <p>{{ 'general.cart.sale2_text' | t }}</p>
       </div>
       <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="12.5" cy="12" r="12" fill="#E8E8E8"/>
@@ -1398,8 +1398,8 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 
       <div class="third-off-mob">
       <div class="progress-bar-text">
-      <p>-30% OFF</p>
-      <p>for 10+ stickers</p>
+      <p>{{ 'general.cart.sale3' | t }}</p>
+      <p>{{ 'general.cart.sale3_text' | t }}</p>
       </div>
       <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="12.5" cy="12" r="12" fill="#E8E8E8"/>
@@ -1632,7 +1632,7 @@ box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 <path fill-rule="evenodd" clip-rule="evenodd" d="M18.7547 8.73228C18.9118 8.8812 19 9.08307 19 9.29354C19 9.50402 18.9118 9.70588 18.7547 9.85481L10.926 17.2677C10.7687 17.4165 10.5555 17.5 10.3333 17.5C10.111 17.5 9.89778 17.4165 9.74051 17.2677L5.26697 13.0318C5.18456 12.9591 5.11846 12.8714 5.07261 12.7739C5.02677 12.6765 5.00212 12.5713 5.00013 12.4647C4.99814 12.3581 5.01886 12.2521 5.06105 12.1532C5.10323 12.0543 5.16603 11.9645 5.24568 11.8891C5.32533 11.8137 5.4202 11.7542 5.52465 11.7143C5.62909 11.6743 5.74096 11.6547 5.85359 11.6566C5.96621 11.6585 6.07728 11.6818 6.18017 11.7252C6.28306 11.7686 6.37567 11.8312 6.45246 11.9092L10.3333 15.5839L17.5692 8.73228C17.7265 8.58354 17.9397 8.5 18.1619 8.5C18.3842 8.5 18.5974 8.58354 18.7547 8.73228Z" fill="black"/>
 </svg>
 
-  <p class="popup-cart-text"> Product added to your cart
+  <p class="popup-cart-text">{{ section.settings.text_for_add_to_cart }}
  </p>
   <button class="cart-popup__button cart-popup__button-hide"id="popup-cart-btn"><svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="12" cy="12.5" r="12" fill="#E8E8E8"/>
@@ -1968,11 +1968,17 @@ document.addEventListener("DOMContentLoaded", () => {
   "class": "section",
   "settings": [
     {
+      "id": "text_for_add_to_cart",
+      "type": "inline_richtext",
+      "default": "Product added to your cart",
+      "label": "text_for_add_to_cart"
+    },
+    {
   "id": "show_progress_bar",
   "type": "checkbox",
   "default": true,
   "label": "Show progress bar"
-},
+  },
     {
       "type": "range",
       "id": "products_per_page",

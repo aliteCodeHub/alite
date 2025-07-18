@@ -35,7 +35,7 @@
   <label class="contact__title" for="productDropdown">{{ 'templates.contact.form.choose_product' | t }}</label>
   <div class="field">
     <div class="custom-dropdown-wrapper">
-      <input type="text" id="productDropdown" class="field__input dropdown" readonly placeholder="Select the product">
+      <input type="text" id="productDropdown" class="field__input dropdown" readonly placeholder="{{ 'templates.contact.form.select_product' | t }}">
       <div class="custom-dropdown hidden" id="customDropdownMenu">
         {%- for block in section.blocks -%}
   <div class="dropdown-option" data-value="{{ block.settings.title }}">{{ block.settings.title }}</div>
@@ -68,42 +68,42 @@
             <p class="contact__title">{{ 'templates.contact.form.information' | t }}</p>
             <div class="field">
             <input class="field__input" type="text" name="contact[name]" id="ContactForm-name"
-  placeholder="Name" required
+ placeholder="{{ 'templates.contact.form.name' | t }}" required
   pattern="^[A-Za-zА-Яа-яЁё\s\-]{2,50}$"
   oninput="this.value = this.value.replace(/[^A-Za-zА-Яа-яЁё\s\-]/g, '')">
 
-              <label class="field__label" for="ContactForm-name">Name</label>
+              <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
             </div>
             <div class="field">
             <input class="field__input" type="email" name="contact[email]" id="ContactForm-email"
-  placeholder="Email" required
+  placeholder="{{ 'templates.contact.form.email' | t }}" required
   pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$">
 
-              <label class="field__label" for="ContactForm-email">Email</label>
+              <label class="field__label" for="ContactForm-email">{{ 'templates.contact.form.email' | t }}</label>
             </div>
             <div class="field">
              <input class="field__input" type="tel" name="contact[phone]" id="ContactForm-phone"
-  placeholder="Phone" required
+  placeholder="{{ 'templates.contact.form.phone' | t }}" required
   pattern="[\+0-9\-\(\)\s]{7,20}" inputmode="tel"
   oninput="this.value = this.value.replace(/[^0-9+\-\(\)\s]/g, '')">
 
-              <label class="field__label" for="ContactForm-phone">Phone</label>
+              <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
             </div>
             <div class="field field-country">
              <input class="field__input" type="text" name="contact[country]" id="ContactForm-country"
-  placeholder="Country" required
+  placeholder="{{ 'customer.addresses.country' | t }}" required
   pattern="^[A-Za-zА-Яа-яЁё\s\-]{2,50}$"
   oninput="this.value = this.value.replace(/[^A-Za-zА-Яа-яЁё\s\-]/g, '')">
 
-              <label class="field__label" for="ContactForm-country">Country</label>
+              <label class="field__label" for="ContactForm-country">{{ 'customer.addresses.country' | t }}</label>
             </div>
           </div>
           <div class="contact__right">
             <div class="contact__right-inner">
               <p class="contact__title">{{ 'templates.contact.form.Comments' | t }}</p>
               <div class="field margin-class">
-               <textarea class="text-area field__input" rows="10" name="contact[body]" id="ContactForm-body" placeholder="Message" required></textarea>
-                <label class="form__label field__label" for="ContactForm-body">Message</label>
+               <textarea class="text-area field__input" rows="10" name="contact[body]" id="ContactForm-body" placeholder="{{ 'templates.contact.form.comment' | t }}" required></textarea>
+                <label class="form__label field__label" for="ContactForm-body">{{ 'templates.contact.form.comment' | t }}</label>
               </div>
             </div>
           </div>

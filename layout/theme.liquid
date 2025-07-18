@@ -190,7 +190,74 @@
     {% endif %}
 
     {% render 'meta-tags' %}
-    <script src="{{ 'rich-text.js' | asset_url }}" defer="defer"></script>
+    {% comment %} <script src="{{ 'rich-text.js' | asset_url }}" defer="defer"></script> {% endcomment %}
+    <script defer="defer">
+      (() => {
+        document.addEventListener("DOMContentLoaded", function () {
+  const richtextSections = document.querySelectorAll(".rich-text")
+
+  richtextSections.forEach(section => {
+    const wrapper = section.querySelector(".description-wrapper");
+    const content = wrapper?.querySelector(".rich-text__text");
+    const toggleBtn = section.querySelector(".show-more-description");
+
+    if (!wrapper || !content || !toggleBtn) return;
+
+    const fullHTML = content.innerHTML.trim();
+    const plainText = content.innerText.trim();
+    const maxChars = 300;
+    const cutIndex = plainText.slice(0, maxChars).lastIndexOf(" ");
+    const shortText = plainText.slice(0, cutIndex) + "...";
+
+    if (plainText.length <= maxChars) {
+      toggleBtn.style.display = "none";
+      return;
+    }
+
+    content.innerText = shortText;
+    wrapper.classList.add("collapsed");
+    wrapper.style.maxHeight = "130px";
+    wrapper.style.overflow = "hidden";
+    wrapper.style.transition = "max-height 0.5s ease";
+
+    let isExpanded = false;
+
+    toggleBtn.addEventListener("click", () => {
+      if (isExpanded) {
+        const currentHeight = wrapper.scrollHeight;
+        wrapper.style.maxHeight = currentHeight + "px";
+
+        requestAnimationFrame(() => {
+          requestAnimationFrame(() => {
+            wrapper.style.maxHeight = "130px";
+
+            setTimeout(() => {
+              content.innerText = shortText;
+              toggleBtn.textContent = "{{ 'sections.collection_template.more' | t }}";
+              isExpanded = false;
+            }, 500);
+          });
+        });
+
+      } else {
+        content.innerHTML = fullHTML;
+        const fullHeight = content.scrollHeight;
+        wrapper.style.maxHeight = "130px";
+
+        requestAnimationFrame(() => {
+          wrapper.style.maxHeight = fullHeight + "px";
+        });
+
+        toggleBtn.textContent = "{{ 'sections.collection_template.hide' | t }}";
+        isExpanded = true;
+      }
+    });
+  });
+});
+
+
+      })()
+    </script>
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
