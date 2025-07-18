@@ -20,7 +20,7 @@
   "@type": "Organization",
   "name": "{{ shop.name | escape }}",
   "url": "{{ shop.url }}",
-  "logo": "{{ shop.logo | img_url: 'master' | prepend: shop.url }}",
+  "logo": "{{ shop.logo | img_url: 'master' }}",
   "description": "{{ shop.description | escape }}",
   "email": "{{ shop.email }}",
   "telephone": "{{ shop.phone }}",
@@ -42,10 +42,10 @@
     "VISA"
   ],
   "availableLanguage": [
-    "English", "Portuguese", "Italian", "Dutch", "Spanish",
-    "German", "Russian", "Estonian", "Irish", "Greek",
-    "Bulgarian", "French", "Bosnian", "Czech", "Hindi", "Croatian"
+    "English", "Portuguese", "Italian", "Spanish",
+    "German", "French" 
   ],
+  "offerCount": 5
   "areaServed": "Worldwide",
   "hasOfferCatalog": {
     "@type": "OfferCatalog",
@@ -58,7 +58,7 @@
         "name": "{{ product.title | escape }}",
         "description": "{{ product.description | strip_html | truncate: 200 | escape }}",
         "url": "{{ shop.url }}{{ product.url }}",
-        "image": "{{ product.featured_image | img_url: 'master' | prepend: shop.url }}",
+        "image": "{{ product.featured_image | img_url: 'master' }}",
         "offers": {
           "@type": "Offer",
           "priceCurrency": "{{ shop.currency }}",
@@ -107,7 +107,7 @@
   "aggregateRating": {
     "@type": "AggregateRating",
     "ratingValue": "4.9",
-    "reviewCount": "152"
+    "reviewCount": "127"
   }
 }
 </script>

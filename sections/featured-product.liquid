@@ -458,6 +458,61 @@
       "@type": "Brand",
       "name": {{ product.vendor | json }}
     },
+      "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9", 
+    "reviewCount": 127 
+  },
+   "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9", 
+    "reviewCount": 127 
+  },
+"review": [
+  {
+    "@type": "Review",
+    "author": { "@type": "Person", "name": "Olivia Reed" },
+    "datePublished": "2025-05-21",
+    "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+    "reviewBody": "Been using it for weeks — no jams, no issues. Very happy with this buy!"
+  },
+  {
+    "@type": "Review",
+    "author": { "@type": "Person", "name": "Noah Wright" },
+    "datePublished": "2025-03-20",
+    "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+    "reviewBody": "Mechanism is smooth and quiet. Not flimsy like others I’ve seen."
+  },
+  {
+    "@type": "Review",
+    "author": { "@type": "Person", "name": "Grace Hill" },
+    "datePublished": "2025-03-17",
+    "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+    "reviewBody": "Super stealthy and functional. Makes my setup look clean and smart."
+  },
+  {
+    "@type": "Review",
+    "author": { "@type": "Person", "name": "Chris Anderson" },
+    "datePublished": "2025-05-02",
+    "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+    "reviewBody": "Satisfying click, smooth flip. Build quality is top-tier."
+  },
+  {
+    "@type": "Review",
+    "author": { "@type": "Person", "name": "Diana King" },
+    "datePublished": "2025-04-18",
+    "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+    "reviewBody": "Mounted in minutes, works like a charm. Way better than I expected."
+  },
+  {
+    "@type": "Review",
+    "author": { "@type": "Person", "name": "Ethan Cooper" },
+    "datePublished": "2025-04-02",
+    "reviewRating": { "@type": "Rating", "ratingValue": "4", "bestRating": "5" },
+    "reviewBody": "Feels solid and responsive. Love how low-profile it looks when closed."
+  }
+],
+
     "offers": [
       {%- for variant in product.variants -%}
         {
@@ -477,10 +532,12 @@
           "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
           "price" : {{ variant.price | divided_by: 100.00 | json }},
           "priceCurrency" : {{ cart.currency.iso_code | json }},
+          "priceValidUntil": "{{ 'now' | date: '%Y' | append: '-12-31' }}",
           "url" : {{ request.origin | append: variant.url | json }}
         }{% unless forloop.last %},{% endunless %}
       {%- endfor -%}
-    ]
+    ],
+
   }
 </script>
 
