@@ -709,15 +709,19 @@
         "text_nqTVc9"
       ],
       "custom_css": [
-        ".rte h2 a {font-size: 24px;}"
+        ".rte h2 a {font-size: 24px;}",
+        ".rich-text__blocks {background: #f7f7f7; border-radius: 15px; padding: 25px;}",
+        ".show-more-description {background: #000; width: 150px; height: 30px; color: #fff; padding: 0 10px 0 29px; border-radius: 50px; font-weight: 100;}",
+        ".show-more-description:hover {transition: All 0.3s; background: #da9dff; color: #000;}",
+        "@media screen and (max-width: 800px) {.show-more-description {margin: auto; margin-top: 12px; height: 40px; padding-top: 6px; font-weight: 100; }}"
       ],
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },

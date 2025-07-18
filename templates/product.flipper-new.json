@@ -220,7 +220,8 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 12,
-        "padding_bottom": 12
+        "padding_bottom": 12,
+        "text_for_add_to_cart": "Product added to your cart"
       }
     },
     "related-products": {
@@ -1114,6 +1115,12 @@
       "block_order": [
         "heading_DMVEaK",
         "text_a3PeXL"
+      ],
+      "custom_css": [
+        ".rich-text__blocks {background: #f7f7f7; border-radius: 15px; padding: 25px;}",
+        ".show-more-description {background: #000; width: 150px; height: 30px; color: #fff; padding: 0 10px 0 29px; border-radius: 50px; font-weight: 100;}",
+        ".show-more-description:hover {transition: All 0.3s; background: #da9dff; color: #000;}",
+        "@media screen and (max-width: 800px) {.show-more-description {margin: auto; margin-top: 12px; height: 40px; padding-top: 6px; font-weight: 100; }}"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
