@@ -126,6 +126,48 @@
     <script src="https://glassy.glassybot.com/eventsv2.js"></script>
     <!-- RedTrack integration-->
 {% endunless %}
+<!-- Add Tag to order from Lumiopix.com-->
+    {% unless request.host contains 'lumiopix.com' %}
+    <script>
+document.addEventListener("DOMContentLoaded", function() {
+  try {
+    // Получаем текущий домен
+    var currentDomain = window.location.hostname;
+
+    // Проверяем localStorage, чтобы не перезаписывать при каждом заходе
+    var savedDomain = localStorage.getItem('shopify_alias_domain');
+    if (!savedDomain) {
+      localStorage.setItem('shopify_alias_domain', currentDomain);
+      savedDomain = currentDomain;
+    }
+
+    // Функция для обновления cart note
+    function updateCartNote(domain) {
+      fetch('/cart/update.js', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          note: 'domain=' + domain
+        })
+      })
+      .then(res => res.json())
+      .then(data => {
+        console.log('Cart note updated with domain:', domain);
+      })
+      .catch(err => console.error('Error updating cart note:', err));
+    }
+
+    // Обновляем cart note, если он ещё не содержит домен
+    updateCartNote(savedDomain);
+
+  } catch(e) {
+    console.error('Domain tagging script error:', e);
+  }
+});
+</script>
+    {% endunless %}
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16907331930">
 </script>
