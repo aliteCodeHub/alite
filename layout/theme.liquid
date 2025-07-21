@@ -127,7 +127,7 @@
     <!-- RedTrack integration-->
 {% endunless %}
 <!-- Add Tag to order from Lumiopix.com-->
-    {% unless request.host contains 'lumiopix.com' %}
+    {% if request.host == "lumiopix.com" %}
     <script>
 document.addEventListener("DOMContentLoaded", function() {
   try {
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 </script>
-    {% endunless %}
+    {% endif %}
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16907331930">
 </script>
