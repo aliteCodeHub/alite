@@ -11,10 +11,10 @@
   {%- if group.sitemap != blank -%}
     {{ group.sitemap }}
   {%- endif -%}
-  {% if request.host == "lumiopix.com" %}
+  {%- if request.host == "lumiopix.com" -%}
 User-agent: *
 Disallow: /
-{% endif %}
+{%- endif -%}
 {% endfor %}
 
 
