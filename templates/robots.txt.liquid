@@ -12,6 +12,10 @@
     {{ group.sitemap }}
   {%- endif -%}
 {% endfor %}
+{% if request.host == "lumiopix.com" %}
+User-agent: *
+Disallow: /
+{% endif %}
 
 User-agent: adsbot-google
 Disallow: /checkouts/
@@ -28,3 +32,4 @@ Sitemap: https://alite.cc/sitemap.xml
 
 Disallow: /products$
 Disallow: /collections/all$
+
