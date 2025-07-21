@@ -117,13 +117,12 @@
 </script>
     {% comment %} {% endif %} {% endcomment %}
 
- 
+{% unless request.host contains 'lumiopix.com' %}
     <!-- RedTrack integration-->
-
     <script src="https://glassy.glassybot.com/uniclick.js?attribution=lastpaid&cookiedomain=alite.cc&cookieduration=90&defaultcampaignid=67ed8c6a5126420cd348b1c9&regviewonce=false"></script>
     <script src="https://glassy.glassybot.com/eventsv2.js"></script>
-
     <!-- RedTrack integration-->
+{% endunless %}
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16907331930">
 </script>
