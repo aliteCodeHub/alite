@@ -11,11 +11,12 @@
   {%- if group.sitemap != blank -%}
     {{ group.sitemap }}
   {%- endif -%}
-{% endfor %}
-{% if request.host == "lumiopix.com" %}
+  {% if request.host == "lumiopix.com" %}
 User-agent: *
 Disallow: /
 {% endif %}
+{% endfor %}
+
 
 User-agent: adsbot-google
 Disallow: /checkouts/
