@@ -170,6 +170,11 @@
   }
 
   @media screen and (max-width: 940px) {
+    .hot-price-block__button-{{ ai_gen_id }} {
+      padding: 10px 10px;
+    }
+  }
+  @media screen and (max-width: 768px) {
     .hot-price-block-{{ ai_gen_id }} {
       height: auto;
       min-height: 183px;
@@ -207,9 +212,7 @@
       padding: 3px 6px;
       font-size: {{ block.settings.hot_label_size | times: 0.9 }}px;
     }
-    .hot-price-block__button-{{ ai_gen_id }} {
-      padding: 10px 10px;
-    }
+    
   }
 
   @media screen and (max-width: 480px) {
@@ -237,6 +240,7 @@
       font-size: 12px;
       width: 50%;
       height: 40px;
+      padding: 10px 20px;
     }
 
     .hot-price-block__image-wrapper-{{ ai_gen_id }} {
