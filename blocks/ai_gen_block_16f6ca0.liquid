@@ -228,8 +228,8 @@
     }
   }
 {% endstyle %}
-
-<div class="hot-price-block-{{ ai_gen_id }} page-width" {{ block.shopify_attributes }}>
+<section class="shopify-section page-width">
+<div class="hot-price-block-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
   <div class="hot-price-block__container-{{ ai_gen_id }}">
     <div class="hot-price-block__image-section-{{ ai_gen_id }}">
       <div class="hot-price-block__image-wrapper-{{ ai_gen_id }}">
@@ -287,6 +287,7 @@
     </div>
   </div>
 </div>
+</section>
 
 {% schema %}
 {
