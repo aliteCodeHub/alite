@@ -1,6 +1,483 @@
+{% doc %}
+  @prompt
+    Make a block 1200px wide (adaptive for mobile devices) with a background of #F9F9F9. With three blocks in a row (implement using flex) in a ratio of 30%-50%-20%. The first block is an image (allow manual uploading via the editor). Center the text with subtitles. At the end, add a block with the price and a black button below it. Create it in a separate file in the code editor and name it “Hot-price-block.”, Edit it a little. Height should be 183px (but adaptive for mobile devices). Width should correspond to the dimensions of other blocks., Add the old price (crossed out) to the price block., Add a small red Hot price label to the top left of the image.
+
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .hot-price-block-{{ ai_gen_id }} {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F9F9F9;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 183px;
+  }
+
+  .hot-price-block__container-{{ ai_gen_id }} {
+    display: flex;
+    gap: 20px;
+    align-items: stretch;
+    height: 100%;
+  }
+
+  .hot-price-block__image-section-{{ ai_gen_id }} {
+    flex: 0 0 30%;
+    height: 100%;
+    position: relative;
+  }
+
+  .hot-price-block__image-wrapper-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .hot-price-block__image-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .hot-price-block__image-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    height: 100%;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hot-price-block__image-placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    opacity: 0.5;
+  }
+
+  .hot-price-block__hot-label-{{ ai_gen_id }} {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background-color: {{ block.settings.hot_label_color }};
+    color: {{ block.settings.hot_label_text_color }};
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: {{ block.settings.hot_label_size }}px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    z-index: 2;
+    line-height: 1;
+  }
+
+  .hot-price-block__content-section-{{ ai_gen_id }} {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;height: 100%;
+  }
+
+  .hot-price-block__title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.title_size }}px;
+    font-weight: 600;
+    color: {{ block.settings.title_color }};
+    margin: 0 0 12px 0;
+    line-height: 1.3;
+  }
+
+  .hot-price-block__subtitle-{{ ai_gen_id }} {
+    font-size: {{ block.settings.subtitle_size }}px;
+    color: {{ block.settings.subtitle_color }};
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .hot-price-block__price-section-{{ ai_gen_id }} {
+    flex: 0 0 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+    height: 100%;
+  }
+
+  .hot-price-block__price-wrapper-{{ ai_gen_id }} {
+    margin: 0 0 15px 0;
+  }
+
+  .hot-price-block__old-price-{{ ai_gen_id }} {
+    font-size: {{ block.settings.old_price_size }}px;
+    font-weight: 400;
+    color: {{ block.settings.old_price_color }};
+    text-decoration: line-through;
+    margin: 0 0 5px 0;
+    display: block;
+  }
+
+  .hot-price-block__price-{{ ai_gen_id }} {
+    font-size: {{ block.settings.price_size }}px;
+    font-weight: 700;
+    color: {{ block.settings.price_color }};
+    margin: 0;
+    display: block;
+  }
+
+  .hot-price-block__button-{{ ai_gen_id }} {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: {{ block.settings.button_radius }}px;
+    font-size: {{ block.settings.button_text_size }}px;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    min-width: 100px;
+  }
+
+  .hot-price-block__button-{{ ai_gen_id }}:hover {
+    background-color: #333333;
+  }
+
+  @media screen and (max-width: 768px) {
+    .hot-price-block-{{ ai_gen_id }} {
+      height: auto;
+      min-height: 183px;
+      padding: 15px;
+    }
+
+    .hot-price-block__container-{{ ai_gen_id }} {
+      flex-direction: column;
+      gap: 15px;height: auto;
+    }
+
+    .hot-price-block__image-section-{{ ai_gen_id }},
+    .hot-price-block__content-section-{{ ai_gen_id }},
+    .hot-price-block__price-section-{{ ai_gen_id }} {
+      flex: none;
+      width: 100%;
+      height: auto;
+    }
+
+    .hot-price-block__image-wrapper-{{ ai_gen_id }} {
+      height: 150px;
+    }
+
+    .hot-price-block__content-section-{{ ai_gen_id }} {
+      padding: 10px 0;
+    }
+
+    .hot-price-block__price-section-{{ ai_gen_id }} {
+      padding: 10px 0;
+    }
+
+    .hot-price-block__hot-label-{{ ai_gen_id }} {
+      top: 6px;
+      left: 6px;
+      padding: 3px 6px;
+      font-size: {{ block.settings.hot_label_size | times: 0.9 }}px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .hot-price-block-{{ ai_gen_id }} {
+      padding: 10px;
+    }
+
+    .hot-price-block__title-{{ ai_gen_id }} {
+      font-size: {{ block.settings.title_size | times: 0.85 }}px;
+    }
+
+    .hot-price-block__subtitle-{{ ai_gen_id }} {
+      font-size: {{ block.settings.subtitle_size | times: 0.9 }}px;
+    }
+
+    .hot-price-block__old-price-{{ ai_gen_id }} {
+      font-size: {{ block.settings.old_price_size | times: 0.9 }}px;
+    }
+
+    .hot-price-block__price-{{ ai_gen_id }} {
+      font-size: {{ block.settings.price_size | times: 0.9 }}px;
+    }
+
+    .hot-price-block__button-{{ ai_gen_id }} {
+      padding: 8px 16px;
+      font-size: {{ block.settings.button_text_size | times: 0.9 }}px;
+    }
+
+    .hot-price-block__image-wrapper-{{ ai_gen_id }} {
+      height: 120px;
+    }
+
+    .hot-price-block__hot-label-{{ ai_gen_id }} {
+      top: 4px;
+      left: 4px;
+      padding: 2px 5px;
+      font-size: {{ block.settings.hot_label_size | times: 0.8 }}px;
+    }
+  }
+{% endstyle %}
+
+<div class="hot-price-block-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="hot-price-block__container-{{ ai_gen_id }}">
+    <div class="hot-price-block__image-section-{{ ai_gen_id }}">
+      <div class="hot-price-block__image-wrapper-{{ ai_gen_id }}">
+        {% if block.settings.image %}
+          <img
+            src="{{ block.settings.image | image_url: width: 600}}"
+            alt="{{ block.settings.image.alt | escape }}"
+            class="hot-price-block__image-{{ ai_gen_id }}"
+            loading="lazy"
+            width="{{ block.settings.image.width }}"
+            height="{{ block.settings.image.height }}"
+          >
+        {% else %}
+          <div class="hot-price-block__image-placeholder-{{ ai_gen_id }}">
+            {{ 'image' | placeholder_svg_tag }}
+          </div>
+        {% endif %}
+        
+        {% if block.settings.show_hot_label %}
+          <span class="hot-price-block__hot-label-{{ ai_gen_id }}">
+            {{ block.settings.hot_label_text }}
+          </span>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="hot-price-block__content-section-{{ ai_gen_id }}">
+      {% if block.settings.title != blank %}
+        <h2 class="hot-price-block__title-{{ ai_gen_id }}">{{ block.settings.title }}</h2>
+      {% endif %}
+      {% if block.settings.subtitle != blank %}
+        <p class="hot-price-block__subtitle-{{ ai_gen_id }}">{{ block.settings.subtitle }}</p>
+      {% endif %}
+    </div>
+
+    <div class="hot-price-block__price-section-{{ ai_gen_id }}">
+      {% if block.settings.price != blank or block.settings.old_price != blank %}
+        <div class="hot-price-block__price-wrapper-{{ ai_gen_id }}">
+          {% if block.settings.old_price != blank %}
+            <span class="hot-price-block__old-price-{{ ai_gen_id }}">{{ block.settings.old_price }}</span>
+          {% endif %}
+          {% if block.settings.price != blank %}
+            <span class="hot-price-block__price-{{ ai_gen_id }}">{{ block.settings.price }}</span>
+          {% endif %}
+        </div>
+      {% endif %}
+      {% if block.settings.button_text != blank %}
+        <a
+          href="{{ block.settings.button_link }}"
+          class="hot-price-block__button-{{ ai_gen_id }}"
+        >
+          {{ block.settings.button_text }}
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Hot Price Block",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Hot Label"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_hot_label",
+      "label": "Show hot price label",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "hot_label_text",
+      "label": "Hot label text",
+      "default": "HOT"
+    },
+    {
+      "type": "color",
+      "id": "hot_label_color",
+      "label": "Hot label background color",
+      "default": "#e0103a"
+    },
+    {
+      "type": "color",
+      "id": "hot_label_text_color",
+      "label": "Hot label text color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "hot_label_size",
+      "min": 8,
+      "max": 16,
+      "step": 1,
+      "unit": "px",
+      "label": "Hot label font size",
+      "default": 10
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Special Offer"
+    },
+    {
+      "type": "textarea",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Limited time deal on selected products"
+    },
+    {
+      "type": "text",
+      "id": "old_price",
+      "label": "Old price (crossed out)"
+    },
+    {
+      "type": "text",
+      "id": "price",
+      "label": "Current price",
+      "default": "$99.99"
+    },
+    {
+      "type": "header",
+      "content": "Button"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text",
+      "default": "Shop Now"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "range",
+      "id": "button_radius",
+      "min": 0,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "Button border radius",
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "min": 14,
+      "max": 32,
+      "step": 2,
+      "unit": "px",
+      "label": "Title font size",
+      "default": 22
+    },
+    {
+      "type": "range",
+      "id": "subtitle_size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Subtitle font size",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "old_price_size",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Old price font size",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "price_size",
+      "min": 16,
+      "max": 28,
+      "step": 2,
+      "unit": "px",
+      "label": "Current price font size",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "button_text_size",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "label": "Button text size",
+      "default": 13
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title color",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "subtitle_color",
+      "label": "Subtitle color",
+      "default": "#666666"
+    },
+    {
+      "type": "color",
+      "id": "old_price_color",
+      "label": "Old price color",
+      "default": "#999999"
+    },
+    {
+      "type": "color",
+      "id": "price_color",
+      "label": "Current price color",
+      "default": "#e0103a"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hot Price Block"
+    }
+  ],
+  "tag": null
+}
 {% endschema %}
