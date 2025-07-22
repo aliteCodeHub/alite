@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
-   {% if request.host == "lumiopix.com" %}
+   {% if request.host == "alitelabs.com" %}
   <meta name="robots" content="noindex, nofollow">
 {% endif %} 
 {% if request.path == '/products' or request.path == '/collections/all' %}
@@ -126,8 +126,8 @@
     <script src="https://glassy.glassybot.com/eventsv2.js"></script>
     <!-- RedTrack integration-->
 {% endunless %}
-<!-- Add Tag to order from Lumiopix.com-->
-    {% if request.host == "lumiopix.com" %}
+<!-- Add Tag to order from alitelabs.com-->
+    {% if request.host == "alitelabs.com" %}
     <script>
 document.addEventListener("DOMContentLoaded", function() {
   try {
