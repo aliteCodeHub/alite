@@ -15,6 +15,10 @@
 User-agent: *
 Disallow: /
 {%- endif -%}
+   {%- if request.host == "www.alitelabs.com" -%}
+User-agent: *
+Disallow: /
+{%- endif -%}
 {% endfor %}
 
 
