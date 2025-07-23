@@ -57,7 +57,7 @@
       "show_more_button": "Mostrar más",
       "show_more_button_close": "Mostrar menos",
       "save": "Has guardado:",
-      "totals":"Total:",
+      "totals": "Total:",
       "progressive": "Descuentos progresivos",
       "sale1": "-10% de descuento",
       "sale2": "-20% de descuento",
@@ -1422,7 +1422,8 @@
         },
         "payment_method_not_supported": "No puedes utilizar este método de pago para %{country}. Utilice un método de pago diferente para realizar envíos a este país.",
         "empty_state": "Ingrese su dirección de envío para ver los métodos de envío disponibles.",
-        "title": "Envío no disponible"
+        "title": "Envío no disponible",
+        "unavailable_addresses_only_countries": "Tu pedido solo se puede enviar a {{countriesList}} . Agrega una nueva dirección para continuar."
       },
       "alternative_payment_method_banner": {
         "express_checkout": "Chequeo rápido"
@@ -2280,6 +2281,21 @@
           "load_more": "Carga más",
           "loading_accessibility_label": "Cargando gente"
         }
+      },
+      "verify_new_email_modal": {
+        "title": "Verificar correo electrónico",
+        "description": "Introduzca el código enviado a {{email}}",
+        "one_time_password_label": "código de 6 dígitos",
+        "email_resend_button": "Reenviar código",
+        "email_resend_button_accessibility_label": "Reenviar código de verificación",
+        "verify_button": "Verificar",
+        "verify_button_accessibility_label": "Verificar contraseña de un solo uso",
+        "cancel_button": "Cancelar",
+        "cancel_button_accessibility_label": "Cancelar la edición del correo electrónico"
+      },
+      "email_update_success_modal": {
+        "title": "Verificar correo electrónico",
+        "description": "Correo electrónico actualizado correctamente. Redireccionando al inicio de sesión."
       }
     },
     "orders": {
