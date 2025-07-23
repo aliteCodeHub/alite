@@ -4,6 +4,9 @@
    {% if request.host == "alitelabs.com" %}
   <meta name="robots" content="noindex, nofollow">
 {% endif %} 
+    {% if request.host == "www.alitelabs.com" %}
+  <meta name="robots" content="noindex, nofollow">
+{% endif %} 
 {% if request.path == '/products' or request.path == '/collections/all' %}
   <meta name="robots" content="noindex">
 {% endif %}
