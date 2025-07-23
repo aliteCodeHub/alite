@@ -666,13 +666,12 @@ src="https://www.facebook.com/tr?id=1950530239047437&ev=PageView&noscript=1"
 /></noscript>
       <script>
   document.addEventListener("DOMContentLoaded", function () {
-    if (window.location.hostname === 'alitepromo.com') {
       document.body.addEventListener('click', function (e) {
         if (e.target.matches('[name="add"]') || e.target.closest('[name="add"]')) {
           fbq('track', 'AddToCart');
         }
       }, true);
-    }
+    
   });
 </script>
     {% endif %}   
