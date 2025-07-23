@@ -1504,30 +1504,76 @@
     "reviewBody": "Feels solid and responsive. Love how low-profile it looks when closed."
   }
 ],
-      "offers": [
-        {%- for variant in product.variants -%}
-          {
-            "@type" : "Offer",
-            {%- if variant.sku != blank -%}
-              "sku": {{ variant.sku | json }},
-            {%- endif -%}
-            {%- if variant.barcode.size == 12 -%}
-              "gtin12": {{ variant.barcode }},
-            {%- endif -%}
-            {%- if variant.barcode.size == 13 -%}
-              "gtin13": {{ variant.barcode }},
-            {%- endif -%}
-            {%- if variant.barcode.size == 14 -%}
-              "gtin14": {{ variant.barcode }},
-            {%- endif -%}
-            "availability" : "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
-            "price" : {{ variant.price | divided_by: 100.00 | json }},
-            "priceCurrency" : {{ cart.currency.iso_code | json }},
-            "priceValidUntil": "{{ 'now' | date: '%Y' | append: '-12-31' }}",
-            "url" : {{ request.origin | append: variant.url | json }}
-          }{% unless forloop.last %},{% endunless %}
-        {%- endfor -%}
-      ]
+     "offers": [
+  {%- for variant in product.variants -%}
+    {
+      "@type" : "Offer",
+      {%- if variant.sku != blank -%}
+        "sku": {{ variant.sku | json }},
+      {%- endif -%}
+      {%- if variant.barcode.size == 12 -%}
+        "gtin12": {{ variant.barcode }},
+      {%- endif -%}
+      {%- if variant.barcode.size == 13 -%}
+        "gtin13": {{ variant.barcode }},
+      {%- endif -%}
+      {%- if variant.barcode.size == 14 -%}
+        "gtin14": {{ variant.barcode }},
+      {%- endif -%}
+      "availability": "http://schema.org/{% if variant.available %}InStock{% else %}OutOfStock{% endif %}",
+      "price": {{ variant.price | divided_by: 100.00 | json }},
+      "priceCurrency": {{ cart.currency.iso_code | json }},
+      "priceValidUntil": "{{ 'now' | date: '%Y' | append: '-12-31' }}",
+      "url": {{ request.origin | append: variant.url | json }},
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": 0,
+          "currency": {{ cart.currency.iso_code | json }}
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 1,
+            "maxValue": 7,
+            "unitCode": "d"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 9,
+            "maxValue": 21,
+            "unitCode": "d"
+          }
+        }
+      },
+      "hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 7,
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "refundType": "FullRefund",
+      "returnFees": "ReturnFeesCustomerResponsibility",
+      "inStoreReturnsOffered": false,
+      "itemCondition": "https://schema.org/NewCondition",
+      "restockingFee": {
+        "@type": "MonetaryAmount",
+        "value": 10,
+        "currency": "USD"
+      },
+      "returnPolicyUrl": "https://alite.cc/policies/refund-policy",
+      "merchantReturnLink": "https://alite.cc/policies/refund-policy",
+      "applicableCountry": "US"
+      }
+    }{% unless forloop.last %},{% endunless %}
+  {%- endfor -%}
+]
+
     }
   </script>
     {%- if product.description != blank and section.settings.show_description -%}

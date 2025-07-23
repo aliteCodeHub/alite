@@ -8,9 +8,8 @@
   "image": "{{ article.image | img_url: 'master' }}",
   "author": {
     "@type": "Person",
-    "name": "{{ article.author | escape }}"
+    "name": "{{ article.author | escape }}",
     "url": "{{ shop.url }}"
-  },
   },
   "publisher": {
     "@type": "Organization",

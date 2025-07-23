@@ -248,6 +248,43 @@
       "type": "ts-sticky-add",
       "settings": {}
     },
+    "blocks_FfCzqj": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_16f6ca0_NdeLDc": {
+          "type": "ai_gen_block_16f6ca0",
+          "settings": {
+            "image": "shopify://shop_images/Group_1139.png",
+            "show_hot_label": true,
+            "hot_label_text": "Hot price",
+            "hot_label_color": "#e0103a",
+            "hot_label_text_color": "#ffffff",
+            "hot_label_size": 9,
+            "title": "–25% for Front & Rear Kit",
+            "subtitle": "Double Nanotape Set for front + rear plates",
+            "old_price": "$39.90",
+            "price": "$29.90",
+            "button_text": "Get the Set",
+            "button_link": "shopify://products/nanotape-license-plate-frame-for-2-license-plate-us-version",
+            "button_radius": 20,
+            "title_size": 22,
+            "subtitle_size": 14,
+            "old_price_size": 14,
+            "price_size": 20,
+            "button_text_size": 13,
+            "title_color": "#000000",
+            "subtitle_color": "#666666",
+            "old_price_color": "#999999",
+            "price_color": "#e0103a"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_16f6ca0_NdeLDc"
+      ],
+      "settings": {}
+    },
     "grid_section_NVyG9x": {
       "type": "grid-section",
       "blocks": {
@@ -1192,6 +1229,7 @@
     "main",
     "related-products",
     "ts_sticky_add_Y7arGz",
+    "blocks_FfCzqj",
     "grid_section_NVyG9x",
     "before_after_9PYq7n",
     "calculator_section_hBU9Qf",
