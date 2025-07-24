@@ -11,6 +11,8 @@
   {%- if group.sitemap != blank -%}
     {{ group.sitemap }}
   {%- endif -%}
+
+{% endfor %}
   {%- if request.host == "alitelabs.com" -%}
 User-agent: *
 Disallow: /
@@ -19,9 +21,7 @@ Disallow: /
 User-agent: *
 Disallow: /
 {%- endif -%}
-{% endfor %}
-
-
+ {%- if request.host == "alite.cc" -%}
 User-agent: adsbot-google
 Disallow: /checkouts/
 Disallow: /checkout
@@ -37,4 +37,4 @@ Sitemap: https://alite.cc/sitemap.xml
 
 Disallow: /products$
 Disallow: /collections/all$
-
+{%- endif -%}
