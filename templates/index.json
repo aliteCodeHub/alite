@@ -243,14 +243,14 @@
         "id": "easyclick",
         "image_first": true,
         "title": "Alite <br>easyclick",
-        "text": "EasyClick License Plate Holder – mount and switch US plates fast, no tools or screws needed!",
+        "text": "Easyclick License Plate Holder – mount and switch US plates fast, no tools or screws needed!",
         "image": "shopify://shop_images/easyclick_trans_2.png",
         "link-img": "shopify://collections/easyclick-license-plate-holder-for-us",
         "link": "shopify://collections/easyclick-license-plate-holder-for-us",
         "title_description": "Alite Easyclick",
         "subtitle_description": "Frameless Plate holder",
         "second-title-description": "Description",
-        "description": "Meet the EasyClick License Plate Holder – the fastest way to mount and switch between two US license plates. No tools, no screws, no hassle. Just click your plates in and out in seconds. Ideal for car shows, multi-state driving, or seasonal tags. Clean look, secure fit, zero damage.",
+        "description": "Meet the Easyclick License Plate Holder – the fastest way to mount and switch between two US license plates. No tools, no screws, no hassle. Just click your plates in and out in seconds. Ideal for car shows, multi-state driving, or seasonal tags. Clean look, secure fit, zero damage.",
         "image_description": "shopify://shop_images/easyclick_gif_main_1.gif"
       }
     },
@@ -684,7 +684,8 @@
       "settings": {
         "label": "Check out our blog",
         "link": "View all →",
-        "link_text": ""
+        "link_text": "",
+        "read_more_text": "Read more"
       }
     },
     "rich_text_x3WAfM": {
