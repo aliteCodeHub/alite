@@ -222,7 +222,8 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 12,
-        "padding_bottom": 12
+        "padding_bottom": 12,
+        "text_for_add_to_cart": "Product added to your cart"
       }
     },
     "related-products": {
@@ -353,7 +354,7 @@
           "settings": {
             "image": "shopify://shop_images/easyclick_gif2.gif",
             "title": "Bulky Frame? No Thanks.",
-            "text": "Ditch oversized plastic frames. EasyClick™ keeps your plate clean, sleek, and distraction-free.",
+            "text": "Ditch oversized plastic frames. Easyclick™ keeps your plate clean, sleek, and distraction-free.",
             "position-x": 3,
             "width": 1,
             "position-y": 3,
