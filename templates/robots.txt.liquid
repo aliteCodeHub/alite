@@ -1,6 +1,7 @@
 {%- comment -%}
 # Caution! Please read https://help.shopify.com/en/manual/promoting-marketing/seo/editing-robots-txt before proceeding to make changes to this file.
 {% endcomment %}
+ {%- if request.host == "alite.cc" -%}
 {% for group in robots.default_groups %}
   {{- group.user_agent -}}
 
@@ -13,15 +14,7 @@
   {%- endif -%}
 
 {% endfor %}
-  {%- if request.host == "alitelabs.com" -%}
-User-agent: *
-Disallow: /
-{%- endif -%}
-   {%- if request.host == "www.alitelabs.com" -%}
-User-agent: *
-Disallow: /
-{%- endif -%}
- {%- if request.host == "alite.cc" -%}
+
 User-agent: adsbot-google
 Disallow: /checkouts/
 Disallow: /checkout
@@ -37,4 +30,17 @@ Sitemap: https://alite.cc/sitemap.xml
 
 Disallow: /products$
 Disallow: /collections/all$
+
+
 {%- endif -%}
+
+  {%- if request.host == "alitelabs.com" -%}
+User-agent: *
+Disallow: /
+{%- endif -%}
+   {%- if request.host == "www.alitelabs.com" -%}
+User-agent: *
+Disallow: /
+{%- endif -%}
+
+
