@@ -475,7 +475,8 @@
       }
     },
     "footer": {
-      "payment": "Payment methods"
+      "payment": "Payment methods",
+      "shipping": "Shipping methods"
     },
     "featured_blog": {
       "view_all": "View all",

@@ -389,7 +389,8 @@
       }
     },
     "footer": {
-      "payment": "Métodos de pago"
+      "payment": "Métodos de pago",
+      "shipping": "Métodos de envío"
     },
     "featured_blog": {
       "view_all": "Ver todo",
