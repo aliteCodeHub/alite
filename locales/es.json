@@ -230,6 +230,9 @@
       "badges": {
         "for_usa": "Adaptado para USA",
         "adapted_for_europe": "Adaptado para Europa",
+        "adapted_for_any_plate": "Adaptado para cualquier plato",
+        "adapted_for_mexico": "Adaptado para México",
+        "adapted_for_peru": "Adaptado para Peru",
         "en_stock": "En stock"
       }
     },
