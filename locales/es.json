@@ -224,7 +224,11 @@
       "blackout_title": "Apagón de Alite",
       "material_title": "El material",
       "Height-flipper": "Tamaño",
-      "Glass": "Vaso"
+      "Glass": "Vaso",
+      "badges": {
+        "for_usa": "Adaptado para USA",
+        "en_stock": "En stock"
+      }
     },
     "modal": {
       "label": "Galería media"
