@@ -304,7 +304,11 @@
       "xr_button": "View in your space",
       "xr_button_label": "View in your space, loads item in augmented reality window",
       "include_taxes": "FREE SHIPPING",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
+      "badges": {
+        "for_usa": "Adapted for USA",
+        "en_stock": "En stock"
+      }
     },
     "modal": {
       "label": "Media gallery"
