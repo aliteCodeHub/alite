@@ -82,8 +82,15 @@
         },
         "custom_liquid_6Y9kpx": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<p class=\"discountp\"><span class=\"discountspan\">FREE SHIPPING</span> on order over $99</p>\n\n<style>\n.discountp {\ndisplay: inline-block;\nbackground-image: url(\"https://cdn.shopify.com/s/files/1/0761/7943/9962/files/free_ship_12.png?v=1751364774\");\nbackground-repeat: no-repeat;\nbackground-size: contain;\nfont-size: 13px;\nfont-weight: 600;\ncolor: #000;\npadding-bottom: 10px;\nwidth:293px; \nheight:50px;\ntext-align: center;\npadding-top: 7px;\nmargin: 0;\n}\n.discountspan {\nfont-weight: 800;\n}\n</style>"
+          }
+        },
+        "sale_bage_KEb9RA": {
+          "type": "sale_bage",
+          "settings": {
+            "text": "FREE SHIPPING on order over $99"
           }
         },
         "badges_gyajXg": {
@@ -173,6 +180,7 @@
         "custom_liquid_RDgEkt",
         "price",
         "custom_liquid_6Y9kpx",
+        "sale_bage_KEb9RA",
         "badges_gyajXg",
         "ec0b6397-acd0-461a-8d62-4e004249a46b",
         "75b2a44d-a6aa-44ca-8387-12cb4450ba5d",
@@ -219,7 +227,8 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 12,
-        "padding_bottom": 12
+        "padding_bottom": 12,
+        "text_for_add_to_cart": "Product added to your cart"
       }
     },
     "related-products": {

@@ -696,7 +696,30 @@
               </p>
             {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
+            
+            {%-  when 'sale_bage' -%}
+              <p class="discountp"><span class="discountspan">{{ block.settings.text }}</p>
 
+              <style>
+              .discountp {
+              display: inline-block;
+              background-image: url("https://cdn.shopify.com/s/files/1/0761/7943/9962/files/free_ship_12.png?v=1751364774");
+              background-repeat: no-repeat;
+              background-size: contain;
+              font-size: 13px;
+              font-weight: 600;
+              color: #000;
+              padding-bottom: 10px;
+              width:293px; 
+              height:50px;
+              text-align: center;
+              padding-top: 7px;
+              margin: 0;
+              }
+              .discountspan {
+              font-weight: 800;
+              }
+              </style>
             {%- when 'purchase_together' -%}
        {% for block in section.blocks %}
   {% if block.type == 'purchase_together' %}
@@ -1629,6 +1652,18 @@
   "tag": "section",
   "class": "section",
   "blocks": [
+    {
+      "type": "sale_bage",
+      "name": "Sale bage",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "FREE SHIPPING on order over $99"
+        }
+      ]
+    },
      {
       "type": "custom_variant_picker",
       "name": "Custom Variant Picker",
