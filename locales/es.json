@@ -229,6 +229,7 @@
       "Glass": "Vaso",
       "badges": {
         "for_usa": "Adaptado para USA",
+        "adapted_for_europe": "Adaptado para Europa",
         "en_stock": "En stock"
       }
     },
