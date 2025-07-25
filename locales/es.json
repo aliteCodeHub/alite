@@ -139,6 +139,8 @@
   "products": {
     "product": {
       "add_to_cart": "Añadir a la cesta",
+      "Color": "Color", 
+      "Material": "Materia",
       "free_shipping": "Envío gratis",
       "secure_checkout": "Pago seguro con:",
       "description": "Descripción",
@@ -224,7 +226,11 @@
       "blackout_title": "Apagón de Alite",
       "material_title": "El material",
       "Height-flipper": "Tamaño",
-      "Glass": "Vaso"
+      "Glass": "Vaso",
+      "badges": {
+        "for_usa": "Adaptado para USA",
+        "en_stock": "En stock"
+      }
     },
     "modal": {
       "label": "Galería media"
