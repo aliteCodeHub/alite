@@ -307,6 +307,7 @@
       "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
       "badges": {
         "for_usa": "Adapted for USA",
+        "adapted_for_europe": "Adapted for Europe",
         "en_stock": "En stock"
       }
     },
