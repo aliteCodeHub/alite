@@ -433,7 +433,7 @@
     </style>
 <div class="related-posts page-width">
     <h2 style="color:#000;font-size:24px;font-weight:700; margin-bottom: 10px;">{{ section.settings.label }}</h2>
-  <div class="top-slider">    <a href="https://alite.cc/blogs/news" class="viev-all">
+  <div class="top-slider">    <a href="{{ shop.url }}{% if localization.language.iso_code != 'en' %}/{{ localization.language.iso_code }}{% endif %}/blogs/news" class="viev-all">
           <p class="viev-all">
             {{ section.settings.link }}
           </p>

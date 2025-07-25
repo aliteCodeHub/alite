@@ -836,7 +836,7 @@
       {%- when 'other-blogs' -%}
   <div class="related-posts page-width--narrow">
     <h3 style="color:#000;font-size:24px;font-weight:700; margin-bottom: 10px;">{{ block.settings.label }}</h3>
-    <a href="{{ shop.url | append: '/' | append: localization.default_locale }}/blogs/news" class="viev-all" >
+    <a href="{{ shop.url }}{% if localization.language.iso_code != 'en' %}/{{ localization.language.iso_code }}{% endif %}/blogs/news" class="viev-all" >
   <h3 class="viev-all" >
     {{ block.settings.link }}
   </h3>
@@ -955,7 +955,7 @@
            {%- if block.settings.blog_show_author -%}
   <span class="author-container" style="margin-right: 6px;" itemprop="author" itemscope itemtype="http://schema.org/Person">
     
-      <span itemprop="name">{{ 'blogs.article.author-text' | t }} <a class="author-link" href="{{ shop.url | append: '/' | append: localization.default_locale }}/blogs/news/vladimir-kostyra-auto-security-privacy-expert">{{ article.author }} </a><p class="pipe">|</p></span>
+      <span itemprop="name">{{ 'blogs.article.author-text' | t }} <a class="author-link" href="{{ shop.url }}{% if localization.language.iso_code != 'en' %}/{{ localization.language.iso_code }}{% endif %}/blogs/news/vladimir-kostyra-auto-security-privacy-expert">{{ article.author }} </a><p class="pipe">|</p></span>
     
   </span>
 {%- endif -%}
