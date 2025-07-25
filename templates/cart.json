@@ -56,7 +56,9 @@
         ".new-progress-bar-cont h3 {margin-bottom: 39px;}",
         "@media screen and (max-width: 750px) {.new-progress-bar-cont h3 {margin-top: 3px; }}"
       ],
-      "settings": {}
+      "settings": {
+        "text_1": "Best offer"
+      }
     },
     "ts_products_XHrbHw": {
       "type": "ts-products",
