@@ -67,6 +67,7 @@
           "type": "products",
           "settings": {
             "image_1": "shopify://shop_images/nano.png",
+            "read_more_text": "Read more",
             "title_1": "Nanofilm Ecoslick Symbols",
             "description_1": "Anti-radar stickers",
             "link_1": "shopify://pages/antiradar-stickers-for-license-plate",
@@ -148,7 +149,8 @@
       "settings": {
         "label": "Read also",
         "link": "View all >",
-        "link_text": ""
+        "link_text": "",
+        "read_more_text": "Read more"
       }
     },
     "sticky_panel_DqMJ6G": {
