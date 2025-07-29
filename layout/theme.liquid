@@ -123,12 +123,11 @@
 </script>
     {% comment %} {% endif %} {% endcomment %}
 
-{% unless request.host contains 'alitelabs.com' %}
     <!-- RedTrack integration-->
     <script src="https://glassy.glassybot.com/uniclick.js?attribution=lastpaid&cookiedomain=alite.cc&cookieduration=90&defaultcampaignid=67ed8c6a5126420cd348b1c9&regviewonce=false"></script>
     <script src="https://glassy.glassybot.com/eventsv2.js"></script>
     <!-- RedTrack integration-->
-{% endunless %}
+
 <!-- Add Tag to order from alitelabs.com-->
     {% if request.host == "alitelabs.com" %}
     <script>
