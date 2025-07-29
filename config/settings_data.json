@@ -207,7 +207,7 @@
             "settings": {
               "logo": "shopify://shop_images/main-logo-black-yellow_2.svg",
               "phone": "+1 (585) 672-9988",
-              "email": "hello@alite.cc",
+              "email": "hello@alite.cc s",
               "whatsapp": "+44 751 424 9553",
               "whatsapp-link": "447514249553",
               "link_instagram": "https://www.instagram.com/alite.it/",
@@ -232,6 +232,9 @@
           "ul li {padding-bottom: 0px;}"
         ],
         "settings": {
+          "text_1": "Userful pages",
+          "text_2": "Socials",
+          "text_3": "Contact us",
           "email_subscription": false,
           "contact_us": true,
           "contact_us_title": "Need help?",
@@ -266,11 +269,6 @@
           "button_vertical_position": "highest",
           "greeting_message": "👋 Hi, message us with any questions. We're happy to help!"
         }
-      },
-      "5017882195547572635": {
-        "type": "shopify://apps/sc-easy-redirects/blocks/app/be3f8dbd-5d43-46b4-ba43-2d65046054c2",
-        "disabled": false,
-        "settings": {}
       },
       "15393088698543645836": {
         "type": "shopify://apps/essential-preorder/blocks/app-embed/bb7e7a06-2a82-4e7d-8984-c3918deb1c2a",
