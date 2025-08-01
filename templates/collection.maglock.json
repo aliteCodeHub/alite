@@ -232,11 +232,12 @@
       ],
       "settings": {}
     },
-    "faq_WMLDkz": {
+    "faq_zCK3Rh": {
       "type": "faq",
       "blocks": {
-        "product_tab_QgMf9c": {
+        "product_tab_HaAww4": {
           "type": "product_tab",
+          "disabled": true,
           "settings": {
             "product_handle": "1",
             "title": "NANOFILM",
@@ -245,8 +246,9 @@
             "icon_svg": ""
           }
         },
-        "product_tab_RjwXVF": {
+        "product_tab_htHN6E": {
           "type": "product_tab",
+          "disabled": true,
           "settings": {
             "product_handle": "2",
             "title": "MATERIAL",
@@ -255,8 +257,9 @@
             "icon_svg": ""
           }
         },
-        "product_tab_R6EPTa": {
+        "product_tab_MMELBC": {
           "type": "product_tab",
+          "disabled": true,
           "settings": {
             "product_handle": "3",
             "title": "BLACKOUT",
@@ -265,8 +268,9 @@
             "icon_svg": ""
           }
         },
-        "product_tab_HzzUwJ": {
+        "product_tab_9geqbB": {
           "type": "product_tab",
+          "disabled": true,
           "settings": {
             "product_handle": "4",
             "title": "FLIPPER+",
@@ -275,7 +279,7 @@
             "icon_svg": ""
           }
         },
-        "product_tab_DBhBRm": {
+        "product_tab_DwC6BR": {
           "type": "product_tab",
           "disabled": true,
           "settings": {
@@ -286,7 +290,7 @@
             "icon_svg": ""
           }
         },
-        "faq_item_zjxizK": {
+        "faq_item_DUqUBK": {
           "type": "faq_item",
           "disabled": true,
           "settings": {
@@ -325,7 +329,7 @@
             "answer_15": ""
           }
         },
-        "faq_item_icPR8M": {
+        "faq_item_KVHNYd": {
           "type": "faq_item",
           "disabled": true,
           "settings": {
@@ -364,7 +368,7 @@
             "answer_15": ""
           }
         },
-        "faq_item_iCgb49": {
+        "faq_item_zk39EL": {
           "type": "faq_item",
           "disabled": true,
           "settings": {
@@ -403,7 +407,7 @@
             "answer_15": ""
           }
         },
-        "faq_item_itptC8": {
+        "faq_item_CYE3KT": {
           "type": "faq_item",
           "disabled": true,
           "settings": {
@@ -442,32 +446,32 @@
             "answer_15": ""
           }
         },
-        "faq_item_zy4UGV": {
+        "faq_item_bn9BDm": {
           "type": "faq_item",
           "settings": {
             "product_handle": "5",
             "main_title": "FAQ",
             "sub_title": "",
-            "question_1": "What is Alite EasyClick™?",
-            "answer_1": "Alite EasyClick™ is a frameless license plate holder designed to mount your plate securely with a clean, minimal look. It uses two factory screws and internal locks to hold the plate without any visible frame.",
+            "question_1": "What is Alite Maglock™?",
+            "answer_1": "Maglock™ is a magnetic license plate mounting system that offers a clean, frameless look with quick access. It uses powerful neodymium magnets and 3M adhesive — no bolts, no visible hardware.",
             "question_2": "Is it compatible with all license plates?",
-            "answer_2": "Yes, it’s designed for standard U.S. license plates and is also compatible with many international plates that follow the same size standard",
+            "answer_2": "Yes. Maglock™ fits standard plate sizes used in most countries, including EU, US, and UK formats.",
             "question_3": "Do I need to drill my car?",
-            "answer_3": "No drilling is needed. Alite EasyClick™ uses your car’s existing factory screw holes for a fast, damage-free install.",
+            "answer_3": "Just once. You'll need to attach the base mount using your car’s factory bumper holes. The magnets stick to your plate using 3M adhesive — no surface damage.",
             "question_4": "Will it hold my plate securely at high speeds?",
-            "answer_4": "Absolutely. The system includes reinforced internal locks and vibration-resistant rubber components, tested for stability at highway speeds.",
+            "answer_4": "Absolutely. The ultra-strong magnets are tested and proven to hold plates steady even at speeds over 150 km/h (93+ mph).",
             "question_5": "Can I install it myself?",
-            "answer_5": "Yes, installation takes just a few minutes using a standard screwdriver. No special tools or mechanical skills required.",
+            "answer_5": "Yes. Installation takes just 5 minutes using a screwdriver. All other hardware is included in the kit.",
             "question_6": "Is the plate really frameless?",
-            "answer_6": "Yes. There’s no surrounding frame or visible bracket. Once installed, only your license plate is visible — clean and floating.",
+            "answer_6": "Yes. No visible frame or bolts — your plate appears to float cleanly on the surface.",
             "question_7": "Does it work with backup cameras and plate lights?",
-            "answer_7": "Yes. EasyClick™ is slim and compact, so it doesn’t interfere with license plate lighting or rearview cameras.",
+            "answer_7": "Yes. Maglock™ doesn't block lighting or interfere with rearview camera angles.",
             "question_8": "Will it scratch my car or plate?",
-            "answer_8": "No. Soft backing and rubber inserts protect both the license plate and your vehicle’s surface during and after installation.",
+            "answer_8": "No. The 3M adhesive and soft padding protect your vehicle’s paint and the plate from contact with metal.",
             "question_9": "Can I reuse it if I change my plate or car?",
-            "answer_9": "Yes, the holder can be removed and reused. You may need new screws or rubber inserts depending on the new surface.",
+            "answer_9": "Yes. The magnets can be removed and reused. You’ll just need fresh 3M tape (included in the kit) for the new setup.",
             "question_10": "Is it legal to use a frameless plate holder?",
-            "answer_10": "Yes, EasyClick™ complies with U.S. regulations as long as your license plate remains fully visible, unobstructed, and securely attached.",
+            "answer_10": "Yes, Maglock™ complies with all regulations as long as your license plate remains fully visible, unobstructed, and securely attached.",
             "question_11": "",
             "answer_11": "",
             "question_12": "",
@@ -482,21 +486,20 @@
         }
       },
       "block_order": [
-        "product_tab_QgMf9c",
-        "product_tab_RjwXVF",
-        "product_tab_R6EPTa",
-        "product_tab_HzzUwJ",
-        "product_tab_DBhBRm",
-        "faq_item_zjxizK",
-        "faq_item_icPR8M",
-        "faq_item_iCgb49",
-        "faq_item_itptC8",
-        "faq_item_zy4UGV"
+        "product_tab_HaAww4",
+        "product_tab_htHN6E",
+        "product_tab_MMELBC",
+        "product_tab_9geqbB",
+        "product_tab_DwC6BR",
+        "faq_item_DUqUBK",
+        "faq_item_KVHNYd",
+        "faq_item_zk39EL",
+        "faq_item_CYE3KT",
+        "faq_item_bn9BDm"
       ],
       "custom_css": [
-        ".faq-selector {padding-top: 20px;}",
-        ".selector-header {display: none;}",
         ".product-selector-wrapper {display: none;}",
+        ".selector-header {display: none;}",
         ".button-divider {display: none !important;}",
         ".faq-item-heading h3 {font-size: 32px; font-family: \"ShopifySans\" !important;}"
       ],
@@ -560,7 +563,7 @@
     "ts_video_slider_3QLKih",
     "also_like_TLfq6X",
     "trustpilot_reviews_cm9mFL",
-    "faq_WMLDkz",
+    "faq_zCK3Rh",
     "banner",
     "ts_sticky_col_JNrzpw",
     "popup_iMXjLh"
