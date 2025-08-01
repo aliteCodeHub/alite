@@ -205,6 +205,52 @@
         "image_description": "shopify://shop_images/nanofilm_3b476e2c-e7bf-4d65-bce8-e20f8e75e4d0.gif"
       }
     },
+    "product_dropdown_bbWjK7": {
+      "type": "product-dropdown",
+      "blocks": {
+        "benefit_h9NkVY": {
+          "type": "benefit",
+          "settings": {
+            "text": "Perfect Fit",
+            "image": "shopify://shop_images/Vector-2_8b70f7c4-55fa-4339-ba7b-f95752998e1a.svg"
+          }
+        },
+        "benefit_MVHdap": {
+          "type": "benefit",
+          "settings": {
+            "text": "Frameless Mount",
+            "image": "shopify://shop_images/Vector_3afbdaa8-57a4-4234-bbeb-a4658b8763bc.svg"
+          }
+        },
+        "benefit_wTNEtg": {
+          "type": "benefit",
+          "settings": {
+            "text": "Easy Replacement",
+            "image": "shopify://shop_images/Vector-1_bed6e6a3-8e38-4e42-873e-9c64b6c0b303.svg"
+          }
+        }
+      },
+      "block_order": [
+        "benefit_h9NkVY",
+        "benefit_MVHdap",
+        "benefit_wTNEtg"
+      ],
+      "name": "Product dropdown",
+      "settings": {
+        "id": "maglock",
+        "image_first": true,
+        "title": "Alite<br>Maglock",
+        "text": "Maglock™ – sleek magnetic mount for license plates. No bolts, no frame. Just strong magnets and 3M adhesive.",
+        "image": "shopify://shop_images/maglock_12.png",
+        "link-img": "shopify://collections/alite-maglock",
+        "link": "shopify://collections/alite-maglock",
+        "title_description": "Alite Maglock",
+        "subtitle_description": "Frameless Plate holder",
+        "second-title-description": "Description",
+        "description": "Maglock™ is a minimalist magnetic mounting solution for license plates, delivering a sleek, frameless appearance with instant plate access. Built with industrial-strength neodymium magnets and premium 3M adhesive, it eliminates the need for bolts, screws, or visible hardware — just clean design and solid hold.",
+        "image_description": "shopify://shop_images/gif_2_71c6ad53-0d21-468a-87d5-62525f13e979.gif"
+      }
+    },
     "product_dropdown_4hi7By": {
       "type": "product-dropdown",
       "blocks": {
@@ -241,7 +287,7 @@
       "name": "Product dropdown",
       "settings": {
         "id": "easyclick",
-        "image_first": true,
+        "image_first": false,
         "title": "Alite <br>easyclick",
         "text": "Easyclick License Plate Holder – mount and switch US plates fast, no tools or screws needed!",
         "image": "shopify://shop_images/easyclick_trans_2.png",
@@ -289,7 +335,7 @@
       ],
       "settings": {
         "id": "blackout",
-        "image_first": false,
+        "image_first": true,
         "title": "ALITE<br>BLACKOUT",
         "text": "Instantly darkens your plate – Reliable camera protection with a sleek, compact design",
         "image": "shopify://shop_images/blackout_main.png",
@@ -337,7 +383,7 @@
       ],
       "settings": {
         "id": "Nanotapes",
-        "image_first": true,
+        "image_first": false,
         "title": "Alite<br>Nanotape",
         "text": "Mount your plate with no drilling – strong nano-tapes hold securely and remove cleanly",
         "image": "shopify://shop_images/nanotape_main_90ce5fb2-da33-424c-b613-b2743168340b.png",
@@ -382,7 +428,7 @@
       ],
       "settings": {
         "id": "flipper",
-        "image_first": false,
+        "image_first": true,
         "title": "ALITE<br>FLIPPER+",
         "text": "Hide your plate in seconds – A simple pull retracts the plate. Durable mechanism, easy installation",
         "image": "shopify://shop_images/flipper_main.png",
@@ -733,6 +779,7 @@
     "popup_NMC9kA",
     "updated_banner_7tDrUm",
     "product_dropdown_NjUPF9",
+    "product_dropdown_bbWjK7",
     "product_dropdown_4hi7By",
     "product_dropdown_W6PFzF",
     "product_dropdown_KHTeRJ",
