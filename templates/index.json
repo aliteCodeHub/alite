@@ -87,6 +87,18 @@
     "updated_banner_7tDrUm": {
       "type": "updated-banner",
       "blocks": {
+        "banner_NQWP3Q": {
+          "type": "banner",
+          "settings": {
+            "isActive": false,
+            "links_to": "maglock",
+            "image": "shopify://shop_images/maglock_12.png",
+            "title": "ALITE<br>MAGLOCK",
+            "text": "Maglock™ – clean, magnetic plate mount. No bolts. No frame. Just pure grip.",
+            "link": "shopify://collections/alite-maglock",
+            "link-img": "shopify://collections/alite-maglock"
+          }
+        },
         "banner_HxX6yx": {
           "type": "banner",
           "settings": {
@@ -149,6 +161,7 @@
         }
       },
       "block_order": [
+        "banner_NQWP3Q",
         "banner_HxX6yx",
         "banner_MKmXgL",
         "banner_mpBaQL",
