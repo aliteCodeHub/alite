@@ -279,7 +279,7 @@
           "type": "cell",
           "settings": {
             "icon": "shopify://shop_images/shield_2_4.svg",
-            "image": "shopify://shop_images/easyclick_gif1.gif",
+            "image": "shopify://shop_images/gif_1_f4f73cdf-0559-4966-8926-10376af12e8d.gif",
             "title": "Flexible & Impact-Resistant",
             "text": "Adapts to curves, resists pressure, and holds firm on any terrain.",
             "position-x": 2,
@@ -360,7 +360,7 @@
         "cell_t7WWB9": {
           "type": "cell",
           "settings": {
-            "image": "shopify://shop_images/easyclick_gif2.gif",
+            "image": "shopify://shop_images/gif_3_ae6ebe54-d432-47a6-9ad6-d5f625c65902.gif",
             "title": "Bulky Frame? No Thanks.",
             "text": "Ditch oversized plastic frames. Easyclick™ keeps your plate clean, sleek, and distraction-free.",
             "position-x": 3,
@@ -377,7 +377,7 @@
           "type": "cell",
           "settings": {
             "icon": "shopify://shop_images/shield_2_4.svg",
-            "image": "shopify://shop_images/easyclick_gif3.gif",
+            "image": "shopify://shop_images/gif_2_71c6ad53-0d21-468a-87d5-62525f13e979.gif",
             "title": "Simple 2-Screw Install",
             "text": "Mounts in minutes using factory holes — no tools, no hassle.",
             "position-x": 1,
