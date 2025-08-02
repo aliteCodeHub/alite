@@ -128,7 +128,7 @@
           </h2>
           <div class="article-card__info caption-with-letter-spacing h5">
             {%- if show_date -%}
-              <span class="read--time">{{ article.published_at | time_tag: format: 'date' }}, Read time - {{ article.metafields.custom.read_time }}</span>
+              <span class="read--time">{{ article.published_at | time_tag: format: 'date' }}, {{ 'blogs.article.read_time' | t }} - {{ article.metafields.custom.read_time }}</span>
             {%- endif -%}
             {%- if show_author -%}
               <span>{{ article.author }}</span>

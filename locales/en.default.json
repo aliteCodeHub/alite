@@ -186,6 +186,7 @@
   },
   "blogs": {
     "article": {
+      "read_time": "Read time",
       "learn_more":"Learn more",
       "blog": "Blog",
       "read-time":"⏰ read-time",
@@ -349,6 +350,9 @@
     }
   },
   "templates": {
+    "review_score": "Review Score",
+    "reviews": "reviews",
+    "satisfied_customers": "satisfied customers",
     "search": {
       "no_results": "No results found for “{{ terms }}”. Check the spelling or use a different word or phrase.",
       "page": "Page",

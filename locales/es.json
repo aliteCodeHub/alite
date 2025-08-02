@@ -107,6 +107,7 @@
   },
   "blogs": {
     "article": {
+      "read_time": "Tiempo de lectura",
       "blog": "Blog",
       "read_more_title": "Leer más: {{ title }}",
       "comments": {
@@ -274,6 +275,9 @@
     }
   },
   "templates": {
+    "review_score": "Puntuación de la revisión",
+    "reviews": "reseñas",
+    "satisfied_customers": "clientes satisfechos",
     "search": {
       "no_results": "No se encontraron resultados para \"{{ terms }}”. Revisa la ortografía o utiliza una palabra o frase diferente.",
       "results_with_count": {

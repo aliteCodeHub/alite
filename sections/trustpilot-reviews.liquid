@@ -16,7 +16,7 @@
   <div class="container page-width">
     <div class="review-score-container">
     <div class="review-score">
-      <h2>4.0/5 Review Score</h2>
+      <h2>4.0/5 {{ 'templates.review_score' | t }}</h2>
       <svg width="166" height="30" viewBox="0 0 166 30" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M5.7375 29L8.175 18.6474L0 11.6842L10.8 10.7632L15 1L19.2 10.7632L30 11.6842L21.825 18.6474L24.2625 29L15 23.5105L5.7375 29Z" fill="black"/>
 <path d="M39.7375 29L42.175 18.6474L34 11.6842L44.8 10.7632L49 1L53.2 10.7632L64 11.6842L55.825 18.6474L58.2625 29L49 23.5105L39.7375 29Z" fill="black"/>
@@ -25,8 +25,8 @@
 <path d="M154.281 11.1582L154.519 11.709L155.115 11.7598L163.526 12.4766L157.177 17.8857L156.712 18.2822L156.852 18.877L158.75 26.9404L151.51 22.6504L151 22.3477L150.49 22.6504L143.249 26.9404L145.148 18.877L145.288 18.2822L144.823 17.8857L138.473 12.4766L146.885 11.7598L147.481 11.709L147.719 11.1582L151 3.53125L154.281 11.1582Z" stroke="black" stroke-width="2"/>
 </svg>
 
-      <p>100+ reviews</p>
-      <p>5500+ satisfied customers</p>
+      <p>100+ {{ 'templates.reviews' | t }}</p>
+      <p>5500+ {{ 'templates.satisfied_customers' | t }}</p>
     </div>
    
 <!-- TrustBox script -->
